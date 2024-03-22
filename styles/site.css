@@ -1,7 +1,20 @@
+@font-face{
+	font-family: "Atkinson Hyperlegible";
+	src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+}
+
+html{
+	font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
 header.top-navigation{
 	position: sticky;
 	top: 0;
 	z-index: 0;
+}
+
+header.top-navigation nav.main-menu .site-title{
+	text-align: center;
 }
 
 header.top-navigation nav.main-menu ul{
