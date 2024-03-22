@@ -14,6 +14,8 @@ header.top-navigation{
 }
 
 header.top-navigation nav.main-menu .site-title{
+	font-size: 200%;
+	margin: 1rem auto;
 	text-align: center;
 }
 
@@ -24,7 +26,7 @@ header.top-navigation nav.main-menu ul{
 	gap: 1rem;
 	justify-content: space-around;
 	list-style: none;
-	margin: 0 auto 0 0;
+	margin: 1rem auto;
 	padding: 0;
 	width: 100%;
 }
