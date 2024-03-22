@@ -4,7 +4,21 @@
 }
 
 html{
+	background-color: #40826D;
 	font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+a{
+	color: #66B032;
+}
+
+a:visited{
+	color: #40826D;
+}
+
+a:active,
+a:hover{
+	color: #e34234;
 }
 
 header.top-navigation{
@@ -14,7 +28,7 @@ header.top-navigation{
 }
 
 header.top-navigation nav.main-menu .site-title{
-	font-size: 200%;
+	font-size: 240%;
 	margin: 1rem auto;
 	text-align: center;
 }
@@ -29,4 +43,36 @@ header.top-navigation nav.main-menu ul{
 	margin: 1rem auto;
 	padding: 0;
 	width: 100%;
+}
+
+main{
+	background-color: linen;
+	color: black;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+h1{
+	font-size: 220%;
+	text-align: center;
+}
+
+h2{
+	font-size: 200%;
+}
+
+h3{
+	font-size: 180%;
+}
+
+h4{
+	font-size: 160%;
+}
+
+h5{
+	font-size: 140%;
+}
+
+h6{
+	font-size: 120%;
 }
