@@ -3,16 +3,13 @@
 	src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 }
 
-:root{
+html{
 	--dark-viridian: #204036;
 	--gold: #ffd700;
 	--green: #66b032;
 	--vermilion: #e34234;
 	--viridian: #40806c;
-}
-
-html{
-	background-color: linen;
+	background-color: #fff;
 	color: var(--dark-viridian);
 	font-family: "Atkinson Hyperlegible", sans-serif;
 	padding: 0;
@@ -23,7 +20,7 @@ a{
 }
 
 a:visited{
-	color: var(--viridian);
+	color: var(--green);
 }
 
 a:active,
@@ -33,7 +30,7 @@ a:hover{
 
 ul > li::marker{
 	color: var(--vermilion);
-	content: "❧ ";
+	content: "🙛 ";
 }
 
 h1,
@@ -74,7 +71,8 @@ header.top-navigation{
 	background-color: var(--viridian);
 	border-radius: 1rem;
 	color: var(--gold);
-	padding: 1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
 	position: sticky;
 	top: 0;
 	z-index: 0;
@@ -96,17 +94,24 @@ header.top-navigation nav.main-menu .site-title > span{
 	padding: 0.5em;
 }
 
+header.top-navigation nav.main-menu .site-title > span::before{
+	color: var(--vermilion);
+	content: "🙤";
+}
+
+header.top-navigation nav.main-menu .site-title > span::after{
+	color: var(--vermilion);
+	content: "🙧";
+}
+
 header.top-navigation nav.main-menu ul{
-	align-items: center;
-	display: flex;
-	gap: 1rem;
-	justify-content: space-around;
-	list-style: none;
-	text-align: center;
+	display: inline-block;
 }
 
 header.top-navigation nav.main-menu ul > li{
+	display: inline-block;
 	list-style-type: none;
+	margin: auto 0.5rem;
 }
 
 header.top-navigation nav.main-menu ul > li::marker{
@@ -116,7 +121,12 @@ header.top-navigation nav.main-menu ul > li::marker{
 header.top-navigation nav.main-menu ul a{
 	background-color: var(--gold);
 	border-radius: 0.5em;
+	color: var(--viridian);
 	padding: 0.5em;
+}
+
+header.top-navigation nav.main-menu ul a:visited{
+	color: var(--dark-viridian);
 }
 
 header.top-navigation nav.main-menu ul a:active,
