@@ -3,32 +3,46 @@
 	src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 }
 
+:root{
+	--dark-viridian: #204036;
+	--gold: #ffd700;
+	--green: #66b032;
+	--vermilion: #e34234;
+	--viridian: #40806c;
+}
+
 html{
 	background-color: linen;
-	color: #204036;
+	color: var(--dark-viridian);
 	font-family: "Atkinson Hyperlegible", sans-serif;
 	padding: 0;
 }
 
 a{
-	color: #40806C;
+	color: var(--viridian);
 }
 
 a:visited{
-	color: #40806C;
+	color: var(--viridian);
 }
 
 a:active,
 a:hover{
-	color: #e34234;
-}
-
-ul > li{
-	list-style-type: square;
+	color: var(--vermilion);
 }
 
 ul > li::marker{
-	color: #e34234;
+	color: var(--vermilion);
+	content: "❧ ";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: normal;
 }
 
 h1{
@@ -57,9 +71,9 @@ h6{
 }
 
 header.top-navigation{
-	background-color: #40806C;
+	background-color: var(--viridian);
 	border-radius: 1rem;
-	color: #FFD700;
+	color: var(--gold);
 	padding: 1rem;
 	position: sticky;
 	top: 0;
@@ -71,13 +85,13 @@ header.top-navigation a{
 }
 
 header.top-navigation nav.main-menu .site-title{
-	font-size: 240%;
+	font-size: 260%;
 	padding: 1rem;
 	text-align: center;
 }
 
 header.top-navigation nav.main-menu .site-title > span{
-	background-color: #66B032;
+	background-color: var(--green);
 	border-radius: 0.5em;
 	padding: 0.5em;
 }
@@ -95,16 +109,20 @@ header.top-navigation nav.main-menu ul > li{
 	list-style-type: none;
 }
 
+header.top-navigation nav.main-menu ul > li::marker{
+	content: none;
+}
+
 header.top-navigation nav.main-menu ul a{
-	background-color: #FFD700;
+	background-color: var(--gold);
 	border-radius: 0.5em;
 	padding: 0.5em;
 }
 
 header.top-navigation nav.main-menu ul a:active,
 header.top-navigation nav.main-menu ul a:hover{
-	background-color: #e34234;
-	color: #FFD700;
+	background-color: var(--vermilion);
+	color: var(--gold);
 }
 
 main{
@@ -117,4 +135,14 @@ main{
 	max-width: 100%;
 	position: relative;
 	width: auto;
+}
+
+footer{
+	border-top: 1px solid currentColor;
+	font-style: italic;
+	text-align: center;
+}
+
+footer .cc-info a{
+	display: inline-block;
 }
