@@ -11,7 +11,7 @@ html{
 }
 
 a{
-	color: #8AB800;
+	color: #40806C;
 }
 
 a:visited{
@@ -23,43 +23,12 @@ a:hover{
 	color: #e34234;
 }
 
-header.top-navigation{
-	position: sticky;
-	top: 0;
-	z-index: 0;
+ul > li{
+	list-style-type: square;
 }
 
-header.top-navigation a{
-	text-decoration: none;
-}
-
-header.top-navigation nav.main-menu .site-title{
-	font-size: 240%;
-	padding: 1rem;
-	text-align: center;
-}
-
-header.top-navigation nav.main-menu ul{
-	align-items: center;
-	border-bottom-style: solid;
-	border-color: #204036;
-	border-top-style: solid;
-	border-width: 2px;
-	box-sizing: border-box;
-	display: flex;
-	gap: 1rem;
-	justify-content: space-around;
-	list-style: none;
-	padding: 1rem;
-	text-align: center;
-}
-
-header.top-navigation nav.main-menu ul > li{
-	width: 100%;
-}
-
-main{
-	padding: 1rem;
+ul > li::marker{
+	color: #e34234;
 }
 
 h1{
@@ -85,4 +54,67 @@ h5{
 
 h6{
 	font-size: 120%;
+}
+
+header.top-navigation{
+	background-color: #40806C;
+	border-radius: 1rem;
+	color: #FFD700;
+	padding: 1rem;
+	position: sticky;
+	top: 0;
+	z-index: 0;
+}
+
+header.top-navigation a{
+	text-decoration: none;
+}
+
+header.top-navigation nav.main-menu .site-title{
+	font-size: 240%;
+	padding: 1rem;
+	text-align: center;
+}
+
+header.top-navigation nav.main-menu .site-title > span{
+	background-color: #66B032;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+
+header.top-navigation nav.main-menu ul{
+	align-items: center;
+	display: flex;
+	gap: 1rem;
+	justify-content: space-around;
+	list-style: none;
+	text-align: center;
+}
+
+header.top-navigation nav.main-menu ul > li{
+	list-style-type: none;
+}
+
+header.top-navigation nav.main-menu ul a{
+	background-color: #FFD700;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+
+header.top-navigation nav.main-menu ul a:active,
+header.top-navigation nav.main-menu ul a:hover{
+	background-color: #e34234;
+	color: #FFD700;
+}
+
+main{
+	padding: 1rem;
+}
+
+.site-index{
+	display: table;
+	margin: 0 auto;
+	max-width: 100%;
+	position: relative;
+	width: auto;
 }
