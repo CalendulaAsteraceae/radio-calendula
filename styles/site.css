@@ -28,9 +28,12 @@ a:hover{
 	color: var(--vermilion);
 }
 
+ul{
+	list-style-type: square;
+}
+
 ul > li::marker{
 	color: var(--vermilion);
-	content: "🙛 ";
 }
 
 h1,
@@ -73,9 +76,6 @@ header.top-navigation{
 	color: var(--gold);
 	padding-bottom: 1rem;
 	padding-top: 1rem;
-	position: sticky;
-	top: 0;
-	z-index: 0;
 }
 
 header.top-navigation a{
@@ -84,34 +84,28 @@ header.top-navigation a{
 
 header.top-navigation nav.main-menu .site-title{
 	background-color: var(--green);
-	border-radius: 0.5em;
+	border-color: var(--vermilion);
+	border-style: solid;
+	border-width: 2px;
 	display: table;
 	font-size: 260%;
-	margin: auto;
+	margin: auto auto 1rem auto;
 	padding: 1rem;
-	padding: 0.5em;
 	text-align: center;
 }
 
-header.top-navigation nav.main-menu .site-title > span::before{
-	color: var(--vermilion);
-	content: "🙤 ";
-}
-
-header.top-navigation nav.main-menu .site-title > span::after{
-	color: var(--vermilion);
-	content: " 🙧";
-}
-
 header.top-navigation nav.main-menu ul{
+	border-collapse: separate;
 	display: table;
 	margin: auto;
 }
 
 header.top-navigation nav.main-menu ul > li{
-	display: inline-block;
+	background-color: var(--gold);
+	border-radius: 0.5em;
+	display: table-cell;
 	list-style-type: none;
-	margin: auto 0.5rem;
+	padding: 0.5em;
 }
 
 header.top-navigation nav.main-menu ul > li::marker{
@@ -119,10 +113,7 @@ header.top-navigation nav.main-menu ul > li::marker{
 }
 
 header.top-navigation nav.main-menu ul a{
-	background-color: var(--gold);
-	border-radius: 0.5em;
 	color: var(--viridian);
-	padding: 0.5em;
 }
 
 header.top-navigation nav.main-menu ul a:visited{
@@ -131,8 +122,7 @@ header.top-navigation nav.main-menu ul a:visited{
 
 header.top-navigation nav.main-menu ul a:active,
 header.top-navigation nav.main-menu ul a:hover{
-	background-color: var(--vermilion);
-	color: var(--gold);
+	color: var(--vermilion);
 }
 
 main{
