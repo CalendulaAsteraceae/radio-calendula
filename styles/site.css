@@ -83,29 +83,29 @@ header.top-navigation a{
 }
 
 header.top-navigation nav.main-menu .site-title{
-	font-size: 260%;
-	padding: 1rem;
-	text-align: center;
-}
-
-header.top-navigation nav.main-menu .site-title > span{
 	background-color: var(--green);
 	border-radius: 0.5em;
+	display: table;
+	font-size: 260%;
+	margin: auto;
+	padding: 1rem;
 	padding: 0.5em;
+	text-align: center;
 }
 
 header.top-navigation nav.main-menu .site-title > span::before{
 	color: var(--vermilion);
-	content: "🙤";
+	content: "🙤 ";
 }
 
 header.top-navigation nav.main-menu .site-title > span::after{
 	color: var(--vermilion);
-	content: "🙧";
+	content: " 🙧";
 }
 
 header.top-navigation nav.main-menu ul{
-	display: inline-block;
+	display: table;
+	margin: auto;
 }
 
 header.top-navigation nav.main-menu ul > li{
