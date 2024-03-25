@@ -34,6 +34,7 @@ ul{
 
 ul > li::marker{
 	color: var(--vermilion);
+	content: "❃ ";
 }
 
 h1,
@@ -85,6 +86,7 @@ header.top-navigation a{
 header.top-navigation nav.main-menu .site-title{
 	background-color: var(--green);
 	border-color: var(--vermilion);
+	border-radius: 1rem;
 	border-style: solid;
 	border-width: 2px;
 	display: table;
@@ -113,11 +115,11 @@ header.top-navigation nav.main-menu ul > li::marker{
 }
 
 header.top-navigation nav.main-menu ul a{
-	color: var(--viridian);
+	color: var(--dark-viridian);
 }
 
 header.top-navigation nav.main-menu ul a:visited{
-	color: var(--dark-viridian);
+	color: var(--viridian);
 }
 
 header.top-navigation nav.main-menu ul a:active,
