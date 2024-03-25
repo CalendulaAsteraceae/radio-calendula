@@ -142,3 +142,9 @@ footer{
 	font-style: italic;
 	margin: auto;
 }
+
+.cc-icons img{
+	color: var(--viridian);
+	height: 1em;
+	vertical-align: top;
+}
