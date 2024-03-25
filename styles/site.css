@@ -100,10 +100,10 @@ header.top-navigation nav.main-menu ul > li{
 	background-color: var(--gold);
 	border-radius: 0.5rem;
 	display: inline-block;
+	flex-shrink: 0;
 	list-style-type: none;
 	padding: 0.5rem;
 	position: relative;
-    flex-shrink: 0;
 }
 
 header.top-navigation nav.main-menu ul > li::marker{
@@ -136,11 +136,9 @@ main{
 }
 
 footer{
-	border-top: 1px solid currentColor;
+	border-top-style: solid;
+	border-top-width: 1px;
+	display: table;
 	font-style: italic;
-	text-align: center;
-}
-
-footer .cc-info a{
-	display: inline-block;
+	margin: auto;
 }
