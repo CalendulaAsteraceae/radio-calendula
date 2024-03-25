@@ -89,7 +89,6 @@ header.top-navigation nav.main-menu .site-title{
 header.top-navigation nav.main-menu ul{
 	align-items: center;
 	display: flex;
-	flex-shrink: 0;
 	flex-wrap: wrap;
 	gap: 1rem;
 	justify-content: space-around;
@@ -104,6 +103,7 @@ header.top-navigation nav.main-menu ul > li{
 	list-style-type: none;
 	padding: 0.5rem;
 	position: relative;
+    flex-shrink: 0;
 }
 
 header.top-navigation nav.main-menu ul > li::marker{
