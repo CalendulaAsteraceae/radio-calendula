@@ -33,8 +33,7 @@ ul{
 }
 
 ul > li::marker{
-	color: var(--vermilion);
-	content: "❃ ";
+	color: var(--vermilion); /* content: "❃ "; */
 }
 
 h1,
