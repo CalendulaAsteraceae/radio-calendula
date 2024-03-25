@@ -97,17 +97,23 @@ header.top-navigation nav.main-menu .site-title{
 }
 
 header.top-navigation nav.main-menu ul{
-	border-collapse: separate;
-	display: table;
+	align-items: center;
+	display: flex;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: space-around;
 	margin: auto;
+	text-align: center;
 }
 
 header.top-navigation nav.main-menu ul > li{
 	background-color: var(--gold);
-	border-radius: 0.5em;
-	display: table-cell;
+	border-radius: 0.5rem;
+	display: inline-block;
 	list-style-type: none;
-	padding: 0.5em;
+	padding: 0.5rem;
+	position: relative;
 }
 
 header.top-navigation nav.main-menu ul > li::marker{
