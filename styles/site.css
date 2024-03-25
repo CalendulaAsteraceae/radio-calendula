@@ -12,7 +12,32 @@ html{
 	background-color: #fff;
 	color: var(--dark-viridian);
 	font-family: "Atkinson Hyperlegible", sans-serif;
+	font-size: 12pt;
 	padding: 0;
+}
+
+h1{
+	font-size: 2.2rem;
+}
+
+h2{
+	font-size: 1.8rem;
+}
+
+h3{
+	font-size: 1.6rem;
+}
+
+h4{
+	font-size: 1.4rem;
+}
+
+h5{
+	font-size: 1.2rem;
+}
+
+h6{
+	font-size: 1rem;
 }
 
 a{
@@ -34,40 +59,6 @@ ul{
 
 ul > li::marker{
 	color: var(--vermilion); /* content: "❃ "; */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-	font-weight: normal;
-}
-
-h1{
-	font-size: 220%;
-	text-align: center;
-}
-
-h2{
-	font-size: 200%;
-}
-
-h3{
-	font-size: 180%;
-}
-
-h4{
-	font-size: 160%;
-}
-
-h5{
-	font-size: 140%;
-}
-
-h6{
-	font-size: 120%;
 }
 
 header.top-navigation{
