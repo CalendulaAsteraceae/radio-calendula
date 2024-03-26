@@ -44,6 +44,7 @@ h6{
 
 a{
 	color: var(--viridian);
+	text-decoration: underline;
 }
 
 a:visited{
@@ -53,6 +54,7 @@ a:visited{
 a:active,
 a:hover{
 	color: var(--vermilion);
+	text-decoration: underline;
 }
 
 ul{
@@ -76,10 +78,8 @@ header.top-navigation a{
 }
 
 header.top-navigation nav.main-menu .site-title{
-	border-color: var(--vermilion);
-	border-radius: 1rem;
-	border-style: solid;
-	border-width: 2px;
+	border: 2px solid var(--vermilion);
+	color: var(--gold);
 	display: table;
 	font-family: var(--monospace);
 	font-size: 260%;
