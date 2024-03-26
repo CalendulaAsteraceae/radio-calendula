@@ -1,8 +1,7 @@
-@font-face{
+/* @font-face{
 	font-family: "Atkinson Hyperlegible";
 	src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-}
-
+} */
 html{
 	--dark-viridian: #204036;
 	--gold: #ffd700;
@@ -75,8 +74,7 @@ header.top-navigation{
 	background-color: var(--viridian);
 	border-radius: 1rem;
 	color: var(--gold);
-	padding-bottom: 1rem;
-	padding-top: 1rem;
+	padding: 1rem;
 }
 
 header.top-navigation a{
@@ -89,7 +87,7 @@ header.top-navigation nav.main-menu .site-title{
 	display: table;
 	font-family: var(--monospace);
 	font-size: 260%;
-	margin: auto auto 1rem auto;
+	margin: auto;
 	padding: 1rem;
 	text-align: center;
 }
@@ -100,7 +98,7 @@ header.top-navigation nav.main-menu ul{
 	flex-wrap: wrap;
 	gap: 1rem;
 	justify-content: space-around;
-	margin: auto;
+	margin: 1rem auto auto auto;
 	text-align: center;
 }
 
