@@ -145,7 +145,6 @@ footer{
 
 .cc-icons img,
 .cc-icons svg{
-	color: var(--viridian);
 	height: 1em;
 	vertical-align: top;
 }
