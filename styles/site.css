@@ -145,13 +145,10 @@ header.top-navigation nav.main-menu ul a:hover{
 }
 
 main{
-	padding: 1rem;
-}
-
-.site-index{
 	display: table;
 	margin: 0 auto;
 	max-width: 100%;
+	padding: 1rem;
 	position: relative;
 	width: auto;
 }
@@ -160,4 +157,10 @@ main{
 .cc-icons svg{
 	height: 1em;
 	vertical-align: top;
+}
+
+.translation-link{
+	font-size: 1.2rem;
+	font-style: italic;
+	text-align: center;
 }
