@@ -6,12 +6,14 @@
 html{
 	--dark-viridian: #204036;
 	--gold: #ffd700;
-	--green: #66b032;
+	--green: #598135;
+	--monospace: "Source Code 4", monospace;
+	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--vermilion: #e34234;
 	--viridian: #40806c;
 	background-color: #fff;
 	color: var(--dark-viridian);
-	font-family: "Atkinson Hyperlegible", sans-serif;
+	font-family: var(--sans-serif);
 	font-size: 12pt;
 	padding: 0;
 }
@@ -74,16 +76,17 @@ header.top-navigation a{
 }
 
 header.top-navigation nav.main-menu .site-title{
-	background-color: var(--green);
 	border-color: var(--vermilion);
 	border-radius: 1rem;
 	border-style: solid;
 	border-width: 2px;
 	display: table;
+	font-family: var(--monospace);
 	font-size: 260%;
 	margin: auto auto 1rem auto;
 	padding: 1rem;
 	text-align: center;
+	text-transform: lowercase;
 }
 
 header.top-navigation nav.main-menu ul{
