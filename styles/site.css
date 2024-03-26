@@ -77,10 +77,6 @@ header.top-navigation{
 	padding: 1rem;
 }
 
-header.top-navigation a{
-	text-decoration: none;
-}
-
 header.top-navigation nav.main-menu .site-title{
 	border: 2px solid var(--vermilion);
 	color: var(--gold);
@@ -105,6 +101,7 @@ header.top-navigation nav.main-menu ul{
 header.top-navigation nav.main-menu ul > li{
 	background-color: var(--gold);
 	border-radius: 0.5rem;
+	color: var(--dark-viridian);
 	display: inline-block;
 	flex-shrink: 0;
 	list-style-type: none;
