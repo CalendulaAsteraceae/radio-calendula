@@ -4,14 +4,11 @@
 }
 
 html{
-	--cursive: "Petit Formal Script", cursive;
 	--dark-viridian: #204036;
-	--fantasy: fantasy;
 	--gold: #ffd700;
 	--green: #598135;
 	--monospace: "Source Code 4", monospace;
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
-	--serif: "PT Serif", serif;
 	--vermilion: #e34234;
 	--viridian: #40806c;
 	background-color: #fff;
@@ -22,26 +19,32 @@ html{
 }
 
 h1{
+	font-family: var(--monospace);
 	font-size: 2.2rem;
 }
 
 h2{
+	font-family: var(--monospace);
 	font-size: 1.8rem;
 }
 
 h3{
+	font-family: var(--monospace);
 	font-size: 1.6rem;
 }
 
 h4{
+	font-family: var(--monospace);
 	font-size: 1.4rem;
 }
 
 h5{
+	font-family: var(--monospace);
 	font-size: 1.2rem;
 }
 
 h6{
+	font-family: var(--monospace);
 	font-size: 1rem;
 }
 
@@ -84,7 +87,7 @@ header.top-navigation nav.main-menu .site-title{
 	border: 2px solid var(--vermilion);
 	color: var(--gold);
 	display: table;
-	font-family: var(--serif);
+	font-family: var(--monospace);
 	font-size: 260%;
 	margin: auto auto 1rem auto;
 	padding: 1rem;
