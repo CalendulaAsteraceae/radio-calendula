@@ -67,7 +67,7 @@ ul{
 	list-style-type: square;
 }
 
-ul > li::marker{
+li::marker{
 	color: var(--vermilion);
 }
 
