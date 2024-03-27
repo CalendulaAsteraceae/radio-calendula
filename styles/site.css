@@ -67,6 +67,7 @@ a:active,
 a:hover{
 	color: var(--vermilion);
 	text-decoration: underline;
+	text-decoration-style: double;
 }
 
 ul{
