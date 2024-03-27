@@ -160,10 +160,9 @@ main{
 	width: auto;
 }
 
-.cc-icons img,
-.cc-icons svg{
-	height: 1em;
-	vertical-align: top;
+.cc-icons{
+	height: 2em;
+	vertical-align: middle;
 }
 
 .translation-link{
