@@ -1,7 +1,13 @@
-/* @font-face{
+@font-face{
 	font-family: "Atkinson Hyperlegible";
-	src: url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-} */
+	src: local("Atkinson Hyperlegible"), url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+}
+
+@font-face{
+	font-family: "Source Code Pro";
+	src: local("Source Code Pro"), url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+}
+
 html{
 	--dark-viridian: #204036;
 	--gold: #ffd700;
