@@ -1,2 +1,1 @@
-# radio-calendula
- personal website
+Source code for my personal website, https://calendula.neocities.org/
