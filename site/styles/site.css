@@ -176,3 +176,7 @@ main{
 	font-style: italic;
 	text-align: center;
 }
+
+.short-message{
+	text-align: center;
+}
