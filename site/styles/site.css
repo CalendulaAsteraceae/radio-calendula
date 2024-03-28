@@ -180,3 +180,7 @@ main{
 .short-message{
 	text-align: center;
 }
+
+.email{
+	font-family: var(--monospace);
+}
