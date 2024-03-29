@@ -16,8 +16,7 @@ html{
 	--dark-viridian: #204036;
 	--gold: #ffd700;
 	--green: #598135;
-	--light-green: #66B032;
-	--monospace: "Source Code 4", monospace;
+	--light-green: #66B032; /* --monospace: "Source Code 4", monospace; */
 	--orange: #f70;
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
@@ -183,5 +182,5 @@ main{
 }
 
 .email{
-	font-family: var(--monospace);
+	font-weight: bold;
 }
