@@ -108,7 +108,7 @@ header.top-navigation{
 	padding: 1rem;
 }
 
-header.top-navigation nav.main-menu .site-title{
+.site-title{
 	border: 2px solid var(--vermilion);
 	color: var(--gold);
 	display: table;
@@ -119,7 +119,12 @@ header.top-navigation nav.main-menu .site-title{
 	text-align: center;
 }
 
-header.top-navigation nav.main-menu ul{
+.site-title a,
+.site-title a:visited{
+	color: var(--gold);
+}
+
+nav.main-menu ul{
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
@@ -129,7 +134,7 @@ header.top-navigation nav.main-menu ul{
 	text-align: center;
 }
 
-header.top-navigation nav.main-menu ul > li{
+nav.main-menu ul > li{
 	background-color: var(--gold);
 	border-radius: 0.5rem;
 	color: var(--dark-viridian);
@@ -140,20 +145,20 @@ header.top-navigation nav.main-menu ul > li{
 	position: relative;
 }
 
-header.top-navigation nav.main-menu ul > li::marker{
+nav.main-menu ul > li::marker{
 	content: none;
 }
 
-header.top-navigation nav.main-menu ul a{
+nav.main-menu ul a{
 	color: var(--dark-viridian);
 }
 
-header.top-navigation nav.main-menu ul a:visited{
+nav.main-menu ul a:visited{
 	color: var(--viridian);
 }
 
-header.top-navigation nav.main-menu ul a:active,
-header.top-navigation nav.main-menu ul a:hover{
+nav.main-menu ul a:active,
+nav.main-menu ul a:hover{
 	color: var(--vermilion);
 }
 
