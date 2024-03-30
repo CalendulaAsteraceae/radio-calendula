@@ -110,7 +110,7 @@ li::marker{
 	content: "▪ ";
 }
 
-.flat-list li:last-child::before{
+.flat-list li:first-child::before{
 	content: none;
 }
 
