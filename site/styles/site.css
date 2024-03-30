@@ -124,6 +124,11 @@ header.top-navigation{
 	color: var(--gold);
 }
 
+.site-title a:active,
+.site-title a:hover{
+	color: var(--vermilion);
+}
+
 nav.main-menu ul{
 	align-items: center;
 	display: flex;
