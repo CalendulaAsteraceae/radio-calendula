@@ -103,7 +103,7 @@ li::marker{
 
 .flat-list li::before{
 	color: var(--vermilion);
-	content: "&bull;";
+	content: "•";
 }
 
 .flat-list li:last-child::before{
