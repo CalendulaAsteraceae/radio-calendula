@@ -89,6 +89,10 @@ li::marker{
 	list-style-type: none;
 }
 
+.unbulleted-list li{
+	margin-top: 0.25em;
+}
+
 .flat-list{
 	display: inline-block;
 	list-style-type: none;
@@ -103,7 +107,7 @@ li::marker{
 
 .flat-list li::before{
 	color: var(--vermilion);
-	content: "•";
+	content: "▪ ";
 }
 
 .flat-list li:last-child::before{
