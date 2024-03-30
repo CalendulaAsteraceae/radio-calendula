@@ -84,6 +84,31 @@ li::marker{
 	color: var(--vermilion);
 }
 
+.unbulleted-list{
+	list-style-type: none;
+}
+
+.flat-list{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flat-list li{
+	display: inline;
+	margin: 0;
+}
+
+.flat-list li::before{
+	color: var(--vermilion);
+	content: "&bull;";
+}
+
+.flat-list li:last-child::before{
+	content: none;
+}
+
 hr{
 	color: var(--vermilion);
 }
