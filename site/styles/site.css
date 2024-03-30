@@ -162,7 +162,6 @@ main{
 	margin: 0 auto;
 	max-width: 100%;
 	padding: 1rem;
-	position: relative;
 	width: 75%;
 }
 
@@ -183,4 +182,10 @@ main{
 
 .email{
 	font-weight: bold;
+}
+
+.centered-list{
+	display: table;
+	margin: 0 auto;
+	max-width: 100%;
 }
