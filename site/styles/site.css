@@ -95,7 +95,7 @@ li::marker{
 	list-style-type: none;
 }
 
-.unbulleted-list li{
+.unbulleted-list > li{
 	margin-top: 0.5em;
 }
 
