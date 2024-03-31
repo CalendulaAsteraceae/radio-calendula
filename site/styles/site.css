@@ -13,6 +13,7 @@
 	src: local("Source Code Pro"), url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 } */
 html{
+	--dark-vermilion: #a43e32;
 	--dark-viridian: #204036;
 	--gold: #ffd700;
 	--green: #598135;
@@ -21,7 +22,6 @@ html{
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
 	--vermilion: #e34234;
-	--dark-vermilion: #a43e32;
 	--viridian: #40806c;
 	background-color: #fff;
 	color: var(--dark-viridian);
