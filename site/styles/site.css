@@ -21,6 +21,7 @@ html{
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
 	--vermilion: #e34234;
+	--dark-vermilion: #a43e32;
 	--viridian: #40806c;
 	background-color: #fff;
 	color: var(--dark-viridian);
@@ -199,12 +200,12 @@ nav.main-menu ul a{
 }
 
 nav.main-menu ul a:visited{
-	color: var(--viridian);
+	color: var(--dark-viridian);
 }
 
 nav.main-menu ul a:active,
 nav.main-menu ul a:hover{
-	color: var(--vermilion);
+	color: var(--dark-vermilion);
 }
 
 main{
