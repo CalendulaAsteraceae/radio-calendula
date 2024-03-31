@@ -167,7 +167,7 @@ header.top-navigation{
 
 .site-title a:active,
 .site-title a:hover{
-	color: var(--vermilion);
+	color: var(--orange);
 }
 
 nav.main-menu ul{
