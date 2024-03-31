@@ -96,7 +96,7 @@ li::marker{
 }
 
 .unbulleted-list li{
-	margin-top: 0.25em;
+	margin-top: 0.5em;
 }
 
 .flat-list{
@@ -112,7 +112,7 @@ li::marker{
 }
 
 .flat-list li::before{
-	color: var(--vermilion);
+	color: var(--viridian);
 	content: "▪ ";
 }
 
