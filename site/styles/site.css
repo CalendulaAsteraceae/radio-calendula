@@ -112,7 +112,7 @@ ul.flat-list li:first-child::before{
 	content: none;
 }
 
-ul.language-list {
+ul.language-list{
 	margin: 0;
 }
 
@@ -199,8 +199,17 @@ nav.main-menu ul > li{
 	position: relative;
 }
 
+nav.main-menu ul ul{
+	margin: auto;
+}
+
 nav.main-menu ul ul > li{
-	padding:0;
+	padding: 0;
+}
+
+nav.main-menu ul .flat-list,
+nav.main-menu ul .language-list{
+	display: inline-block;
 }
 
 nav.main-menu ul > li::marker{
