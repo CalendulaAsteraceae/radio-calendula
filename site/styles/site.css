@@ -82,30 +82,48 @@ li::marker{
 	color: var(--vermilion);
 }
 
-.unbulleted-list > li{
+ul.language-list{
+	list-style-type: circle;
+}
+
+ul.unbulleted-list > li{
 	list-style-type: none;
 	margin-top: 0.5em;
 }
 
-.flat-list{
+ul.flat-list{
 	display: inline-block;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.flat-list li{
-	display: inline;
+ul.flat-list li{
+	display: inline-block;
 	margin: 0;
 }
 
-.flat-list li::before{
+ul.flat-list li::before{
 	color: var(--viridian);
 	content: "▪ ";
 }
 
-.flat-list li:first-child::before{
+ul.flat-list li:first-child::before{
 	content: none;
+}
+
+ul.flat-list li::before{
+	color: var(--viridian);
+	content: "▪ ";
+}
+
+ul.language-list li::marker{
+	color: currentColor;
+}
+
+ul.flat-list.language-list li::before{
+	color: currentColor;
+	content: "• ";
 }
 
 hr{
