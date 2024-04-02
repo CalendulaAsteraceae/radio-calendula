@@ -112,11 +112,6 @@ ul.flat-list li:first-child::before{
 	content: none;
 }
 
-ul.flat-list li::before{
-	color: var(--viridian);
-	content: "▪ ";
-}
-
 ul.language-list li::marker{
 	color: currentColor;
 }
@@ -124,6 +119,10 @@ ul.language-list li::marker{
 ul.flat-list.language-list li::before{
 	color: currentColor;
 	content: "• ";
+}
+
+ul.flat-list.language-list li:first-child::before{
+	content: none;
 }
 
 hr{
