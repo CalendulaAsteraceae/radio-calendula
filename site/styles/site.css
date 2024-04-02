@@ -112,6 +112,14 @@ ul.flat-list li:first-child::before{
 	content: none;
 }
 
+ul.language-list {
+	margin: 0;
+}
+
+ul.language-list li{
+	margin-top: 0;
+}
+
 ul.language-list li::marker{
 	color: currentColor;
 }
@@ -189,6 +197,10 @@ nav.main-menu ul > li{
 	list-style-type: none;
 	padding: 0.5rem;
 	position: relative;
+}
+
+nav.main-menu ul ul > li{
+	padding:0;
 }
 
 nav.main-menu ul > li::marker{
