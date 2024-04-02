@@ -244,6 +244,7 @@ main{
 	font-family: var(--serif);
 	font-size: 1.2rem;
 	font-style: italic;
+	margin-top: 1em;
 	text-align: center;
 }
 
