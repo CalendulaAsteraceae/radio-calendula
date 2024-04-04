@@ -168,6 +168,7 @@ header.top-navigation{
 	border-radius: 1rem;
 	color: var(--gold);
 	padding: 1rem;
+	min-width: fit-content;
 }
 
 .site-title{
