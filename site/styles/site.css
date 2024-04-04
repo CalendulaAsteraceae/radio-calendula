@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 html{
 	--dark-vermilion: #a43e32;
 	--dark-viridian: #204036;
@@ -96,11 +98,13 @@ ul.flat-list{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	vertical-align: top;
 }
 
 ul.flat-list li{
-	display: inline-block;
+	display: inline;
 	margin: 0;
+	vertical-align: top;
 }
 
 ul.flat-list li::before{
@@ -133,6 +137,15 @@ ul.flat-list.language-list li:first-child::before{
 	content: none;
 }
 
+h1 ul.flat-list li,
+h2 ul.flat-list li,
+h3 ul.flat-list li,
+h4 ul.flat-list li,
+h5 ul.flat-list li,
+h6 ul.flat-list li {
+	display: inline-block;
+}
+
 hr{
 	color: var(--vermilion);
 }
@@ -160,12 +173,12 @@ header.top-navigation{
 .site-title{
 	border: 2px solid var(--vermilion);
 	color: var(--gold);
-	display: table;
 	font-family: var(--serif);
 	font-size: 260%;
 	margin: auto;
 	padding: 1rem;
 	text-align: center;
+	max-width: fit-content;
 }
 
 .site-title a,
@@ -207,8 +220,7 @@ nav.main-menu ul ul > li{
 	padding: 0;
 }
 
-nav.main-menu ul .flat-list,
-nav.main-menu ul .language-list{
+nav.main-menu ul .flat-list {
 	display: inline-block;
 }
 
@@ -257,7 +269,6 @@ main{
 }
 
 .centered-list{
-	display: table;
 	margin: 0 auto;
-	max-width: 100%;
+	max-width: fit-content;
 }
