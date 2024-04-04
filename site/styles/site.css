@@ -142,7 +142,7 @@ h2 ul.flat-list li,
 h3 ul.flat-list li,
 h4 ul.flat-list li,
 h5 ul.flat-list li,
-h6 ul.flat-list li {
+h6 ul.flat-list li{
 	display: inline-block;
 }
 
@@ -167,8 +167,8 @@ header.top-navigation{
 	background-color: var(--viridian);
 	border-radius: 1rem;
 	color: var(--gold);
-	padding: 1rem;
 	min-width: fit-content;
+	padding: 1rem;
 }
 
 .site-title{
@@ -177,9 +177,9 @@ header.top-navigation{
 	font-family: var(--serif);
 	font-size: 260%;
 	margin: auto;
+	max-width: fit-content;
 	padding: 1rem;
 	text-align: center;
-	max-width: fit-content;
 }
 
 .site-title a,
@@ -221,7 +221,7 @@ nav.main-menu ul ul > li{
 	padding: 0;
 }
 
-nav.main-menu ul .flat-list {
+nav.main-menu ul .flat-list{
 	display: inline-block;
 }
 
