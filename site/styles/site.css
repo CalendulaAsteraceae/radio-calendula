@@ -5,7 +5,7 @@
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
 	--monospace: "Source Code Pro", monospace;
-	
+
 	/* named colors */
 	--vermilion: #e34234;
 	--dark-vermilion: #a43e32;
@@ -282,6 +282,10 @@ main{
 	font-style: italic;
 	margin-top: 1em;
 	text-align: center;
+}
+
+.current-page {
+	font-weight: bold;
 }
 
 .short-message{
