@@ -1,73 +1,94 @@
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
-html{
-	--dark-vermilion: #a43e32;
-	--dark-viridian: #204036;
-	--gold: #ffd700;
-	--green: #598135;
-	--light-green: #66B032; /* --monospace: "Source Code Pro", monospace; */
-	--orange: #f70;
+:root{
+	/* fonts */
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
+	--monospace: "Source Code Pro", monospace;
+	
+	/* named colors */
 	--vermilion: #e34234;
+	--dark-vermilion: #a43e32;
 	--viridian: #40806c;
-	background-color: #fff;
-	color: var(--dark-viridian);
+	--dark-viridian: #204036;
+	--light-viridian: #62c7a7;
+	--gold: #ffd700;
+	--green: #598135;
+	--light-green: #66B032;
+	--orange: #f70;
+
+	/* role colors */
+	--bg-color: #fff;
+	--text-color: var(--dark-viridian);
+	--emphasis-color-1: var(--vermilion);
+	--emphasis-color-2: var(--green);
+	--emphasis-color-3: var(--viridian);
+
+	/* base styles */
+	background-color: var(--bg-color);
+	color: var(--text-color);
 	font-family: var(--sans-serif);
 	font-size: 14pt;
 	padding: 0;
 }
+@media (prefers-color-scheme: dark) {
+	:root{
+		--bg-color: #000;
+		--emphasis-color-2: var(--light-green);
+		--text-color: var(--light-viridian);
+	}
+}
 
 h1{
-	color: var(--vermilion);
+	color: var(--emphasis-color-1);
 	font-family: var(--serif);
 	font-size: 2.2rem;
 	text-align: center;
 }
 
 h2{
-	color: var(--green);
+	color: var(--emphasis-color-2);
 	font-family: var(--serif);
 	font-size: 1.8rem;
 	text-align: center;
 }
 
 h3{
-	color: var(--viridian);
+	color: var(--emphasis-color-3);
 	font-family: var(--serif);
 	font-size: 1.6rem;
 }
 
 h4{
-	color: var(--viridian);
+	color: var(--emphasis-color-3);
 	font-family: var(--serif);
 	font-size: 1.4rem;
 }
 
 h5{
-	color: var(--viridian);
+	color: var(--emphasis-color-3);
 	font-family: var(--serif);
 	font-size: 1.2rem;
 }
 
 h6{
-	color: var(--viridian);
+	color: var(--emphasis-color-3);
 	font-family: var(--serif);
 	font-size: 1rem;
 }
 
 a{
-	color: var(--viridian);
+	color: var(--emphasis-color-3);
 	text-decoration: underline;
 }
 
 a:visited{
-	color: var(--green);
+	color: var(--emphasis-color-2);
 }
 
 a:active,
 a:hover{
-	color: var(--vermilion);
+	color: var(--emphasis-color-1);
 	text-decoration: underline;
 	text-decoration-style: double;
 }
@@ -81,7 +102,7 @@ li{
 }
 
 li::marker{
-	color: var(--vermilion);
+	color: var(--emphasis-color-1);
 }
 
 ul.language-list{
@@ -108,7 +129,7 @@ ul.flat-list li{
 }
 
 ul.flat-list li::before{
-	color: var(--viridian);
+	color: var(--emphasis-color-3);
 	content: "▪ ";
 }
 
@@ -147,7 +168,7 @@ h6 ul.flat-list li{
 }
 
 hr{
-	color: var(--vermilion);
+	color: var(--emphasis-color-1);
 }
 
 figure{
