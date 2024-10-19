@@ -14,6 +14,7 @@
 	--light-viridian: #62c7a7;
 	--gold: #ffd700;
 	--green: #598135;
+	--dark-green: #364f20;
 	--light-green: #66B032;
 	--orange: #f70;
 
@@ -256,7 +257,7 @@ nav.main-menu ul a{
 }
 
 nav.main-menu ul a:visited{
-	color: var(--dark-viridian);
+	color: var(--dark-green);
 }
 
 nav.main-menu ul a:active,
