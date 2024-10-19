@@ -194,6 +194,7 @@ header.top-navigation{
 
 .site-title{
 	border: 2px solid var(--vermilion);
+	border-radius: 1rem;
 	color: var(--gold);
 	font-family: var(--serif);
 	font-size: 260%;
