@@ -176,14 +176,14 @@ figure{
 	margin: 2rem auto;
 	text-align: center;
 }
-
 figure img{
 	height: 8em;
-	border: 4px solid var(--emphasis-color-2);
 }
-
 figure figcaption{
 	margin-top: 1rem;
+}
+.bordered-figure img{
+	border: 4px solid var(--emphasis-color-3);
 }
 
 header.top-navigation{
