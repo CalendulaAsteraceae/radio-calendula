@@ -230,7 +230,6 @@ nav.main-menu ul > li{
 	border-radius: 0.5rem;
 	color: var(--dark-viridian);
 	display: inline-block;
-	flex-shrink: 0;
 	list-style-type: none;
 	padding: 0.5rem;
 	position: relative;
