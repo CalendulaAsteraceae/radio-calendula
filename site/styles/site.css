@@ -179,7 +179,7 @@ figure{
 
 figure img{
 	height: 8em;
-	border: 4px solid var(--light-green);
+	border: 4px solid var(--emphasis-color-2);
 }
 
 figure figcaption{
