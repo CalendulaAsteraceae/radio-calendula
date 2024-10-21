@@ -315,10 +315,10 @@ nav.main-menu ul a:hover{
 	margin: auto;
 	display: table;
 }
-
 .verse p{
 	text-align: initial;
 	text-indent: 0;
+	margin-top: 0;
 }
 .verse p + p{
 	margin-top: 1em;
