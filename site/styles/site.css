@@ -360,3 +360,10 @@ nav.main-menu ul a:hover{
 	text-align: center;
 	font-style: italic;
 }
+
+.captioned-audio{
+	font-style: italic;
+}
+.captioned-audio audio a{
+	font-weight: bold;
+}
