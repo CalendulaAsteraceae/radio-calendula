@@ -67,6 +67,13 @@
 	}
 }
 
+main{
+	margin: 0 auto;
+	padding: 1rem;
+	max-width: 75%;
+	display: table;
+}
+
 h1{
 	color: var(--emphasis-color-1);
 	font-family: var(--serif);
@@ -213,6 +220,8 @@ figure figcaption{
 	border: 4px solid var(--emphasis-color-3);
 }
 
+/* navigation */
+
 header.top-navigation{
 	background-color: var(--viridian);
 	border-radius: 1rem;
@@ -292,23 +301,42 @@ nav.main-menu ul a:hover{
 	color: var(--dark-vermilion);
 }
 
-main{
-	margin: 0 auto;
-	padding: 1rem;
-	width: 75%;
-}
-
-.cc-icons{
-	height: 2em;
-	vertical-align: middle;
-}
-
 .translation-link{
 	font-family: var(--serif);
 	font-size: 1.2rem;
 	font-style: italic;
 	margin-top: 1em;
 	text-align: center;
+}
+
+/* verse */
+
+.verse{
+	margin: auto;
+	display: table;
+}
+
+.verse p{
+	text-align: initial;
+	text-indent: 0;
+}
+.verse p + p{
+	margin-top: 1em;
+}
+.verse p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.verse p > span + br{
+	display: none;
+}
+
+/* other styles */
+
+.cc-icons{
+	height: 2em;
+	vertical-align: middle;
 }
 
 .current-page {
@@ -326,4 +354,9 @@ main{
 .centered-list{
 	margin: 0 auto;
 	max-width: fit-content;
+}
+
+.posting-dates{
+	text-align: center;
+	font-style: italic;
 }
