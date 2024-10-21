@@ -363,6 +363,7 @@ nav.main-menu ul a:hover{
 
 .captioned-audio{
 	font-style: italic;
+	margin: 1rem auto;
 }
 .captioned-audio audio a{
 	font-weight: bold;
