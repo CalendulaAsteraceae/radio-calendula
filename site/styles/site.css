@@ -359,6 +359,7 @@ nav.main-menu ul a:hover{
 .posting-dates{
 	text-align: center;
 	font-style: italic;
+	font-family: var(--serif);
 }
 
 .captioned-audio{
