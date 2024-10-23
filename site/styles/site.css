@@ -312,10 +312,6 @@ nav.main-menu ul a:hover{
 
 /* verse */
 
-.verse{
-	margin: auto;
-	display: table;
-}
 .verse p{
 	text-align: initial;
 	text-indent: 0;
@@ -331,6 +327,12 @@ nav.main-menu ul a:hover{
 }
 .verse p > span + br{
 	display: none;
+}
+
+/* utility classes */
+.block-center{
+	margin: auto;
+	display: table;
 }
 
 /* other styles */
