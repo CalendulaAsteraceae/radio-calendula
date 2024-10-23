@@ -364,9 +364,15 @@ nav.main-menu ul a:hover{
 }
 
 .posting-dates{
-	text-align: center;
-	font-style: italic;
-	font-family: var(--serif);
+	margin: auto;
+	text-align: left;
+}
+.posting-dates th{
+	font-weight: bold;
+	color: var(--emphasis-color-2);
+}
+.posting-dates td{
+	color: var(--emphasis-color-3);
 }
 
 .captioned-audio{
