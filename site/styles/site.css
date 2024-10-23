@@ -329,6 +329,10 @@ nav.main-menu ul a:hover{
 	display: none;
 }
 
+.verse-alt {
+	font-style: italic;
+}
+
 /* utility classes */
 .block-center{
 	margin: auto;
