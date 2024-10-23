@@ -92,17 +92,17 @@ h2{
 h3{
 	color: var(--emphasis-color-3);
 	font-family: var(--serif);
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 }
 
 h4{
-	color: var(--emphasis-color-3);
+	color: var(--emphasis-color-1);
 	font-family: var(--serif);
 	font-size: 1.4rem;
 }
 
 h5{
-	color: var(--emphasis-color-3);
+	color: var(--emphasis-color-2);
 	font-family: var(--serif);
 	font-size: 1.2rem;
 }
