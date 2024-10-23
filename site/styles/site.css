@@ -370,6 +370,7 @@ nav.main-menu ul a:hover{
 .posting-dates th{
 	font-weight: bold;
 	color: var(--emphasis-color-2);
+	padding-right: 1rem;
 }
 .posting-dates td{
 	color: var(--emphasis-color-3);
