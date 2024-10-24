@@ -130,7 +130,29 @@ a:hover{
 }
 
 ul{
-	list-style-type: square;
+	--type: square;
+	container-name: list;
+	list-style-type: var(--type);
+}
+@container list style(--type: square){
+	ul {
+		--type: circle;
+	}
+}
+@container list style(--type: circle){
+	ul {
+		--type: square;
+	}
+}
+/* fallbacks for browsers that don't support container style queries */
+ul ul{
+	--type: circle;
+}
+ul ul ul{
+	--type: square;
+}
+ul ul ul ul{
+	--type: circle;
 }
 
 li{
