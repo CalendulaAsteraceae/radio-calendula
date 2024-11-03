@@ -32,6 +32,10 @@
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
 	--monospace: "Source Code Pro", monospace;
+	/*
+	--cursive: "Petit Formal Script", cursive;
+	--fantasy: "Lobster Two", fantasy;
+	*/
 
 	/* named colors */
 	--vermilion: #e34234;
