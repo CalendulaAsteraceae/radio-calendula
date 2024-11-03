@@ -72,7 +72,6 @@
 main{
 	margin: 0 auto;
 	padding: max(5%, 1rem);
-	display: table;
 }
 
 h1{
@@ -394,9 +393,11 @@ nav.main-menu ul a:hover{
 	font-weight: bold;
 	color: var(--emphasis-color-2);
 	padding-right: 1rem;
+	vertical-align: top;
 }
 .posting-dates td{
 	color: var(--emphasis-color-3);
+	vertical-align: top;
 }
 
 .captioned-audio{
