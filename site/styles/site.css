@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap");
 
 @font-face {
 	font-family: "Atkinson Hyperlegible";
@@ -32,6 +32,7 @@
 	--sans-serif: "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
 	--monospace: "Source Code Pro", monospace;
+	--accent-sans-serif: "Grandstander", "Atkinson Hyperlegible", sans-serif;
 	/*
 	--cursive: "Petit Formal Script", cursive;
 	--fantasy: "Lobster Two", fantasy;
@@ -260,7 +261,7 @@ header.top-navigation{
 	border: 2px solid var(--vermilion);
 	border-radius: 1rem;
 	color: var(--gold);
-	font-family: var(--serif);
+	font-family: var(--accent-sans-serif);
 	font-size: 260%;
 	margin: auto;
 	max-width: fit-content;
@@ -374,6 +375,9 @@ nav.main-menu ul a:hover{
 
 .current-page {
 	font-weight: bold;
+}
+.current-page.site-title {
+	font-weight: normal;
 }
 
 .short-message{
