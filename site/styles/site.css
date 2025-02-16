@@ -414,7 +414,6 @@ figure figcaption {
 
 header.top-navigation {
 	background-color: var(--viridian);
-	border-radius: 1rem;
 	color: var(--gold);
 	min-width: fit-content;
 	padding: 1rem;
