@@ -203,22 +203,23 @@
 	/* named colors */
 	--vermilion: #e34234;
 	--dark-vermilion: #a43e32;
-	--viridian: #40806c;
-	--dark-viridian: #204036;
-	--light-viridian: #62c7a7;
-	--mid-light-viridian: #51a38a;
+	--orange: #f70;
+	--dark-orange: #b56025;
 	--gold: #ffd700;
 	--green: #598135;
 	--dark-green: #364f20;
 	--light-green: #66B032;
-	--orange: #f70;
+	--viridian: #40806c;
+	--dark-viridian: #204036;
+	--light-viridian: #62c7a7;
+	--mid-light-viridian: #51a38a;
 
 	/* role colors */
 	--bg-color: #fff;
 	--text-color: var(--dark-viridian);
 	--emphasis-color-1: var(--vermilion);
 	--emphasis-color-2: var(--green);
-	--emphasis-color-3: var(--viridian);
+	--emphasis-color-3: var(--dark-orange);
 
 	/* base styles */
 	background-color: var(--bg-color);
@@ -231,7 +232,7 @@
 	:root {
 		--bg-color: #000;
 		--emphasis-color-2: var(--light-green);
-		--emphasis-color-3: var(--light-viridian);
+		--emphasis-color-3: var(--orange);
 		--text-color: var(--mid-light-viridian);
 	}
 }
