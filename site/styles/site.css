@@ -354,7 +354,7 @@ ul.flat-list li {
 }
 
 ul.flat-list li::before {
-	color: var(--emphasis-color-3);
+	color: var(--emphasis-color-2);
 	content: "▪ ";
 }
 
