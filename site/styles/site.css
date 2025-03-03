@@ -4,98 +4,98 @@
 /* Atkinson Hyperlegible Next */
 
 /* extra-bold = 800 */
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 800;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBold.woff2") format("woff2");
 }
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 800;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBoldItalic.woff2") format("woff2");
 }
 /* bold = 700 */
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 700;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2");
 }
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 700;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-BoldItalic.woff2") format("woff2");
 }
 /* semi-bold = 600 */
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 600;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBold.woff2") format("woff2");
 }
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 600;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBoldItalic.woff2") format("woff2");
 }
 /* medium = 500 */
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 500;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Medium.woff2") format("woff2");
 }
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 500;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-MediumItalic.woff2") format("woff2");
 }
 /* regular = 400 */
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 400;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Regular.woff2") format("woff2");
 }
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 400;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-RegularItalic.woff2") format("woff2");
 }
 /* light = 300 */
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 300;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Light.woff2") format("woff2");
 }
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 300;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-LightItalic.woff2") format("woff2");
 }
 /* extra-light = 200 */
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 200;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLight.woff2") format("woff2");
 }
-@font-face {
+@font-face{
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 200;
 	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLightItalic.woff2") format("woff2");
 }
 
-:root {
+:root{
 	/* fonts */
 	--sans-serif: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", sans-serif;
 	--serif: "Spectral", serif;
@@ -134,8 +134,8 @@
 	font-size: 14pt;
 	padding: 0;
 }
-@media (prefers-color-scheme: dark) {
-	:root {
+@media(prefers-color-scheme: dark){
+	:root{
 		--bg-color: #000;
 		--emphasis-color-2: var(--orange);
 		--emphasis-color-3: var(--light-green);
@@ -143,109 +143,109 @@
 	}
 }
 
-main {
+main{
 	margin: 0 auto;
 	padding: max(5%, 1rem);
 }
 
-h1 {
+h1{
 	color: var(--emphasis-color-1);
 	font-family: var(--serif);
 	font-size: 2.2rem;
 	text-align: center;
 }
 
-h2 {
+h2{
 	color: var(--emphasis-color-2);
 	font-family: var(--serif);
 	font-size: 1.8rem;
 	text-align: center;
 }
 
-h3 {
+h3{
 	color: var(--emphasis-color-3);
 	font-family: var(--serif);
 	font-size: 1.5rem;
 }
 
-h4 {
+h4{
 	color: var(--emphasis-color-1);
 	font-family: var(--serif);
 	font-size: 1.4rem;
 }
 
-h5 {
+h5{
 	color: var(--emphasis-color-2);
 	font-family: var(--serif);
 	font-size: 1.2rem;
 }
 
-h6 {
+h6{
 	color: var(--emphasis-color-3);
 	font-family: var(--serif);
 	font-size: 1.1rem;
 }
 
-a {
+a{
 	color: var(--emphasis-color-2);
 	text-decoration: underline;
 }
 
-a:visited {
+a:visited{
 	color: var(--emphasis-color-3);
 }
 
 a:active,
-a:hover {
+a:hover{
 	color: var(--emphasis-color-1);
 	text-decoration: underline;
 	text-decoration-style: double;
 }
 
-ul {
+ul{
 	--type: square;
 	container-name: list;
 	list-style-type: var(--type);
 }
 @container list style(--type: square){
-	ul {
+	ul{
 		--type: circle;
 	}
 }
 @container list style(--type: circle){
-	ul {
+	ul{
 		--type: square;
 	}
 }
 /* fallbacks for browsers that don't support container style queries */
-ul ul {
+ul ul{
 	--type: circle;
 }
-ul ul ul {
+ul ul ul{
 	--type: square;
 }
-ul ul ul ul {
+ul ul ul ul{
 	--type: circle;
 }
 
-li {
+li{
 	margin-top: 0.25em;
 }
 
-li::marker {
+li::marker{
 	color: var(--emphasis-color-1);
 }
 
-ul.language-list {
+ul.language-list{
 	list-style-type: circle;
 }
 
-ul.unbulleted-list > li {
+ul.unbulleted-list > li{
 	list-style-type: none;
 	margin-top: 0.5em;
 }
 
-ul.flat-list {
+ul.flat-list{
 	display: inline-block;
 	list-style-type: none;
 	margin: 0;
@@ -253,39 +253,39 @@ ul.flat-list {
 	vertical-align: top;
 }
 
-ul.flat-list li {
+ul.flat-list li{
 	display: inline;
 	margin: 0;
 	vertical-align: top;
 }
 
-ul.flat-list li::before {
+ul.flat-list li::before{
 	color: var(--emphasis-color-1);
 	content: "▪ ";
 }
 
-ul.flat-list li:first-child::before {
+ul.flat-list li:first-child::before{
 	content: none;
 }
 
-ul.language-list {
+ul.language-list{
 	margin: 0;
 }
 
-ul.language-list li {
+ul.language-list li{
 	margin-top: 0;
 }
 
-ul.language-list li::marker {
+ul.language-list li::marker{
 	color: currentColor;
 }
 
-ul.flat-list.language-list li::before {
+ul.flat-list.language-list li::before{
 	color: currentColor;
 	content: "• ";
 }
 
-ul.flat-list.language-list li:first-child::before {
+ul.flat-list.language-list li:first-child::before{
 	content: none;
 }
 
@@ -294,38 +294,38 @@ h2 ul.flat-list li,
 h3 ul.flat-list li,
 h4 ul.flat-list li,
 h5 ul.flat-list li,
-h6 ul.flat-list li {
+h6 ul.flat-list li{
 	display: inline-block;
 }
 
-hr {
+hr{
 	color: var(--emphasis-color-1);
 }
 
-figure {
+figure{
 	margin: 2rem auto;
 	text-align: center;
 }
-figure img {
+figure img{
 	height: 8em;
 }
-figure figcaption {
+figure figcaption{
 	margin-top: 1rem;
 }
-.bordered-figure img {
+.bordered-figure img{
 	border: 4px solid var(--emphasis-color-3);
 }
 
 /* navigation */
 
-header.top-navigation {
+header.top-navigation{
 	background-color: var(--viridian);
 	color: var(--gold);
 	min-width: fit-content;
 	padding: 1rem;
 }
 
-.site-title {
+.site-title{
 	border: 2px solid var(--vermilion);
 	border-radius: 1rem;
 	color: var(--gold);
@@ -338,16 +338,16 @@ header.top-navigation {
 }
 
 .site-title a,
-.site-title a:visited {
+.site-title a:visited{
 	color: var(--gold);
 }
 
 .site-title a:active,
-.site-title a:hover {
+.site-title a:hover{
 	color: var(--orange);
 }
 
-nav.main-menu ul {
+nav.main-menu ul{
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
@@ -357,7 +357,7 @@ nav.main-menu ul {
 	text-align: center;
 }
 
-nav.main-menu ul > li {
+nav.main-menu ul > li{
 	background-color: var(--gold);
 	border-radius: 0.5rem;
 	color: var(--dark-viridian);
@@ -367,36 +367,36 @@ nav.main-menu ul > li {
 	position: relative;
 }
 
-nav.main-menu ul ul {
+nav.main-menu ul ul{
 	margin: auto;
 }
 
-nav.main-menu ul ul > li {
+nav.main-menu ul ul > li{
 	padding: 0;
 }
 
-nav.main-menu ul .flat-list {
+nav.main-menu ul .flat-list{
 	display: inline-block;
 }
 
-nav.main-menu ul > li::marker {
+nav.main-menu ul > li::marker{
 	content: none;
 }
 
-nav.main-menu ul a {
+nav.main-menu ul a{
 	color: var(--dark-viridian);
 }
 
-nav.main-menu ul a:visited {
+nav.main-menu ul a:visited{
 	color: var(--dark-green);
 }
 
 nav.main-menu ul a:active,
-nav.main-menu ul a:hover {
+nav.main-menu ul a:hover{
 	color: var(--dark-vermilion);
 }
 
-.translation-link {
+.translation-link{
 	font-family: var(--serif);
 	font-size: 1.2rem;
 	font-style: italic;
@@ -406,79 +406,79 @@ nav.main-menu ul a:hover {
 
 /* verse */
 
-.verse p {
+.verse p{
 	text-align: initial;
 	text-indent: 0;
 	margin-top: 0;
 }
-.verse p + p {
+.verse p + p{
 	margin-top: 1em;
 }
-.verse p > span {
+.verse p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
-.verse p > span + br {
+.verse p > span + br{
 	display: none;
 }
 
-.verse-alt {
+.verse-alt{
 	font-style: italic;
 }
 
 /* utility classes */
 
-.block-center {
+.block-center{
 	margin: auto;
 	display: table;
 }
 
 /* other styles */
 
-.cc-icons {
+.cc-icons{
 	height: 2em;
 	vertical-align: middle;
 }
 
-.current-page {
+.current-page{
 	font-weight: bold;
 }
-.current-page.site-title {
+.current-page.site-title{
 	font-weight: normal;
 }
 
-.short-message {
+.short-message{
 	text-align: center;
 }
 
-.email {
+.email{
 	font-weight: bold;
 }
 
-.centered-list {
+.centered-list{
 	margin: 0 auto;
 	max-width: fit-content;
 }
 
-.posting-dates {
+.posting-dates{
 	margin: auto;
 	text-align: left;
 }
-.posting-dates th {
+.posting-dates th{
 	font-weight: bold;
 	color: var(--emphasis-color-2);
 	padding-right: 1rem;
 	vertical-align: top;
 }
-.posting-dates td {
+.posting-dates td{
 	color: var(--emphasis-color-3);
 	vertical-align: top;
 }
 
-.captioned-audio {
+.captioned-audio{
 	margin: 2rem auto;
 }
-.captioned-audio audio a {
+.captioned-audio audio a{
 	font-weight: bold;
 }
