@@ -8,91 +8,91 @@
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 800;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBold.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBold.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 800;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBoldItalic.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraBoldItalic.woff2") format("woff2");
 }
 /* bold = 700 */
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 700;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Bold.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Bold.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 700;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-BoldItalic.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-BoldItalic.woff2") format("woff2");
 }
 /* semi-bold = 600 */
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 600;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBold.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBold.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 600;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBoldItalic.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-SemiBoldItalic.woff2") format("woff2");
 }
 /* medium = 500 */
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 500;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Medium.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Medium.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 500;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-MediumItalic.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-MediumItalic.woff2") format("woff2");
 }
 /* regular = 400 */
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Regular.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Regular.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 400;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-RegularItalic.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-RegularItalic.woff2") format("woff2");
 }
 /* light = 300 */
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 300;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Light.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-Light.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 300;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-LightItalic.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-LightItalic.woff2") format("woff2");
 }
 /* extra-light = 200 */
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: normal;
 	font-weight: 200;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLight.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLight.woff2") format("woff2");
 }
 @font-face {
 	font-family: "Atkinson Hyperlegible Next";
 	font-style: italic;
 	font-weight: 200;
-	src: url(../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLightItalic.woff2) format("woff2");
+	src: url("../fonts/AtkinsonHyperlegibleNext/AtkinsonHyperlegibleNext-ExtraLightItalic.woff2") format("woff2");
 }
 
 :root {
