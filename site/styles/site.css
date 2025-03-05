@@ -330,7 +330,9 @@ header.top-navigation{
 	border-radius: 1rem;
 	color: var(--gold);
 	font-family: var(--accent-sans-serif);
+	font-weight: lighter;
 	font-size: 260%;
+	font-weight: lighter;
 	margin: auto;
 	max-width: fit-content;
 	padding: 1rem;
@@ -355,6 +357,7 @@ nav.main-menu ul{
 	justify-content: space-around;
 	margin: 1rem auto auto auto;
 	text-align: center;
+	font-family: var(--accent-sans-serif);
 }
 
 nav.main-menu ul > li{
