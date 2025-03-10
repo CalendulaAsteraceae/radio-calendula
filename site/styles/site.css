@@ -289,6 +289,19 @@ ul.flat-list.language-list li:first-child::before{
 	content: none;
 }
 
+.language-list-auto li[lang="en"]::after {
+	content: " (English)"
+}
+.language-list-auto li[lang="es"]::after {
+	content: " (español)"
+}
+.language-list-auto li[lang="it"]::after {
+	content: " (italiano)"
+}
+.language-list-auto li[lang="fr"]::after {
+	content: " (français)"
+}
+
 h1 ul.flat-list li,
 h2 ul.flat-list li,
 h3 ul.flat-list li,
