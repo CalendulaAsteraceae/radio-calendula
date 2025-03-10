@@ -347,7 +347,6 @@ header.top-navigation{
 	border-radius: 1rem;
 	color: var(--gold);
 	font-family: var(--accent-sans-serif);
-	font-weight: lighter;
 	font-size: 260%;
 	font-weight: lighter;
 	margin: auto;
@@ -465,7 +464,7 @@ nav.main-menu ul a:hover{
 	font-weight: bold;
 }
 .current-page.site-title{
-	font-weight: normal;
+	font-weight: lighter;
 }
 
 .short-message{
