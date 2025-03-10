@@ -374,7 +374,7 @@ nav.main-menu ul{
 	margin: 1rem auto auto auto;
 	text-align: center;
 	font-family: var(--accent-sans-serif);
-	font-weight: lighter;
+	font-weight: normal;
 }
 
 nav.main-menu ul > li{
