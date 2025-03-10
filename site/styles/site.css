@@ -298,6 +298,10 @@ h6 ul.flat-list li{
 	display: inline-block;
 }
 
+li > p {
+	margin: 0.5em 0;
+}
+
 hr{
 	color: var(--emphasis-color-1);
 }
