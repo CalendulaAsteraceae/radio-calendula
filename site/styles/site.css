@@ -122,9 +122,13 @@
 	--emphasis-color-1: var(--green);
 	--emphasis-color-2: var(--blue);
 	--emphasis-color-3: var(--purple);
-	--emphasis-color-4: var(--red);
-	--emphasis-color-5: var(--yellow-accent);
-	--emphasis-color-6: var(--black-accent);
+	--nav-bg-color: var(--green);
+	--nav-color-1: var(--green);
+	--nav-color-2: var(--blue);
+	--nav-color-3: var(--purple);
+	--nav-color-4: var(--red);
+	--nav-color-5: var(--yellow);
+	--nav-color-6: var(--white-accent);
 
 	/* base styles */
 	background-color: var(--bg-color);
@@ -140,9 +144,6 @@
 		--emphasis-color-1: var(--green-accent);
 		--emphasis-color-2: var(--blue-accent);
 		--emphasis-color-3: var(--purple-accent);
-		--emphasis-color-4: var(--red-accent);
-		--emphasis-color-5: var(--yellow);
-		--emphasis-color-6: var(--white-accent);
 	}
 }
 
@@ -339,16 +340,16 @@ figure figcaption{
 /* navigation */
 
 header.top-navigation{
-	background-color: var(--emphasis-color-1);
-	color: var(--gold);
+	background-color: var(--nav-bg-color);
+	color: var(--nav-color-5);
 	min-width: fit-content;
 	padding: 1rem;
 }
 
 .site-title{
-	border: 2px solid var(--emphasis-color-4);
+	border: 2px solid var(--nav-color-1);
 	border-radius: 1rem;
-	color: var(--emphasis-color-5);
+	color: var(--nav-color-5);
 	font-family: var(--serif);
 	font-size: 260%;
 	font-weight: lighter;
@@ -360,12 +361,12 @@ header.top-navigation{
 
 .site-title a,
 .site-title a:visited{
-	color: var(--emphasis-color-5);
+	color: var(--nav-color-5);
 }
 
 .site-title a:active,
 .site-title a:hover{
-	color: var(--emphasis-color-6);
+	color: var(--nav-color-6);
 }
 
 nav.main-menu ul{
@@ -381,9 +382,9 @@ nav.main-menu ul{
 }
 
 nav.main-menu ul > li{
-	background-color: var(--emphasis-color-5);
+	background-color: var(--nav-color-5);
 	border-radius: 0.5rem;
-	color: var(--emphasis-color-1);
+	color: var(--nav-color-1);
 	display: inline-block;
 	list-style-type: none;
 	padding: 0.5rem;
@@ -407,16 +408,16 @@ nav.main-menu ul > li::marker{
 }
 
 nav.main-menu ul a{
-	color: var(--emphasis-color-1);
+	color: var(--nav-color-1);
 }
 
 nav.main-menu ul a:visited{
-	color: var(--emphasis-color-2);
+	color: var(--nav-color-2);
 }
 
 nav.main-menu ul a:active,
 nav.main-menu ul a:hover{
-	color: var(--emphasis-color-4);
+	color: var(--nav-color-1);
 }
 
 .translation-link{
