@@ -101,20 +101,16 @@
 	*/
 
 	/* named colors */
-	--white: #e1dac8;
-	--white-accent: #d7bc9e;
-	--yellow: #dec567;
-	--yellow-accent: #e0ab31;
-	--red: #a34236;
-	--red-accent: #db513f;
-	--green: #5d7231;
-	--green-accent: #67a07f;
-	--blue: #4e6b82;
-	--blue-accent: #698f96;
-	--purple: #874143;
-	--purple-accent: #ab6064;
-	--black: #2f3130;
-	--black-accent: #465058;
+	--white: #f9f0e9;
+	--yellow: #c4b819;
+	--red: #c05124;
+	--green: #788d6a;
+	--green-accent: #788d6a;
+	--blue: #344e7f;
+	--blue-accent: #344e7f;
+	--purple: #853e3c;
+	--purple-accent: #853e3c;
+	--black: #302e31;
 
 	/* role colors */
 	--bg-color: var(--white);
@@ -128,7 +124,7 @@
 	--nav-color-3: var(--purple);
 	--nav-color-4: var(--red);
 	--nav-color-5: var(--yellow);
-	--nav-color-6: var(--white-accent);
+	--nav-color-6: var(--white);
 
 	/* base styles */
 	background-color: var(--bg-color);
