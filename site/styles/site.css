@@ -130,7 +130,7 @@
 	/* base styles */
 	background-color: var(--bg-color);
 	color: var(--text-color);
-	font-family: var(--sans-serif);
+	font-family: var(--serif);
 	font-size: 14pt;
 	padding: 0;
 }
@@ -346,7 +346,7 @@ header.top-navigation{
 	border: 2px solid var(--vermilion);
 	border-radius: 1rem;
 	color: var(--gold);
-	font-family: var(--accent-sans-serif);
+	font-family: var(--serif);
 	font-size: 260%;
 	font-weight: lighter;
 	margin: auto;
@@ -373,7 +373,7 @@ nav.main-menu ul{
 	justify-content: space-around;
 	margin: 1rem auto auto auto;
 	text-align: center;
-	font-family: var(--accent-sans-serif);
+	font-family: var(--serif);
 	font-weight: normal;
 }
 
