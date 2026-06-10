@@ -117,7 +117,7 @@
 	--emphasis-color-1: var(--green);
 	--emphasis-color-2: var(--blue);
 	--emphasis-color-3: var(--red);
-	--nav-bg-color: var(--green);
+	--nav-bg-color: var(--black);
 	--nav-color-1: var(--green);
 	--nav-color-2: var(--blue);
 	--nav-color-3: var(--red);
@@ -338,29 +338,33 @@ header.top-navigation{
 	color: var(--nav-color-4);
 	min-width: fit-content;
 	padding: 1rem;
+	border: 2px solid var(--nav-color-4);
+	border-radius: 1rem;
 }
 
 .site-title{
-	border: 2px solid var(--nav-color-5);
+	background: var(--nav-color-5);
 	border-radius: 1rem;
-	color: var(--nav-color-4);
+	color: var(--nav-color-1);
 	font-family: var(--serif);
 	font-size: 260%;
-	font-weight: lighter;
 	margin: auto;
 	max-width: fit-content;
 	padding: 1rem;
 	text-align: center;
 }
 
-.site-title a,
-.site-title a:visited{
-	color: var(--nav-color-4);
+.site-title a{
+	color: var(--nav-color-1);
+}
+
+.site-title a:visited {
+	color: var(--nav-color-2);
 }
 
 .site-title a:active,
 .site-title a:hover{
-	color: var(--nav-color-5);
+	color: var(--nav-color-3);
 }
 
 nav.main-menu ul{
