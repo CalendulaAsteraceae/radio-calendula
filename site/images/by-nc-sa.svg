@@ -7,7 +7,7 @@
 				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
 			</cc:Work>
 		</rdf:RDF>
-		<title>CC BY-NC-SA badge.</title>
+		<title>CC BY-NC-SA badge</title>
 	</metadata>
 	<g transform="scale(3)">
 		<rect fill="#aab2ab" height="41" rx="2" ry="2" stroke="#000" width="119" x=".5" y=".5"/>
