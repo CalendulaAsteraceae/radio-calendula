@@ -332,7 +332,8 @@ figure{
 	text-align: center;
 }
 figure img{
-	height: 8em;
+	max-height: 8em;
+	max-width: 100%;
 }
 .bordered-figure img{
 	border: 4px solid var(--emphasis-color-3);
