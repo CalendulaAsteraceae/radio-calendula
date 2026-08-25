@@ -338,7 +338,6 @@ figure img{
 }
 .bordered-figure img{
 	border: 4px solid var(--emphasis-color-3);
-	padding: 0.5em;
 }
 
 /* navigation */
