@@ -226,6 +226,7 @@ ul{
 		--type: square;
 	}
 }
+
 /* fallbacks for browsers that don't support container style queries */
 ul ul{
 	--type: circle;
@@ -240,7 +241,6 @@ ul ul ul ul{
 li{
 	margin-top: 0.25em;
 }
-
 li::marker{
 	color: var(--emphasis-color-1);
 }
@@ -253,6 +253,20 @@ ul.unbulleted-list > li{
 	list-style-type: none;
 	margin-top: 0.5em;
 }
+ul.unbulleted-list > li ul{
+	--type: square;
+}
+
+/* fallbacks for browsers that don't support container style queries */
+ul.unbulleted-list > li ul ul{
+	--type: circle;
+}
+ul.unbulleted-list > li ul ul ul{
+	--type: square;
+}
+ul.unbulleted-list > li ul ul ul ul{
+	--type: circle;
+}
 
 ul.flat-list{
 	display: inline-block;
@@ -261,18 +275,15 @@ ul.flat-list{
 	padding: 0;
 	vertical-align: top;
 }
-
 ul.flat-list li{
 	display: inline;
 	margin: 0;
 	vertical-align: top;
 }
-
 ul.flat-list li::before{
 	color: var(--emphasis-color-1);
 	content: "▪ ";
 }
-
 ul.flat-list li:first-child::before{
 	content: none;
 }
@@ -280,11 +291,9 @@ ul.flat-list li:first-child::before{
 ul.language-list{
 	margin: 0;
 }
-
 ul.language-list li{
 	margin-top: 0;
 }
-
 ul.language-list li::marker{
 	color: currentColor;
 }
@@ -293,7 +302,6 @@ ul.flat-list.language-list li::before{
 	color: currentColor;
 	content: "• ";
 }
-
 ul.flat-list.language-list li:first-child::before{
 	content: none;
 }
