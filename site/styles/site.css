@@ -499,19 +499,9 @@ nav.main-menu ul a:hover{
 	max-width: fit-content;
 }
 
-.posting-dates{
-	margin: auto;
-	text-align: left;
-}
-.posting-dates th{
-	font-weight: bold;
-	color: var(--emphasis-color-2);
-	padding-right: 1rem;
-	vertical-align: top;
-}
-.posting-dates td{
+.posting-info{
+	text-align: center;
 	color: var(--emphasis-color-3);
-	vertical-align: top;
 }
 
 .captioned-audio{
