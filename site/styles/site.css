@@ -110,13 +110,13 @@
 	--white: #f9f0e9;
 	--black: #1a1a1a;
 	--yellow: #c4b819;
-	--brown: #7d5c2f;
 	--red: #c05124;
 	--red-accent: #ff4800;
 	--green: #5d7231;
 	--green-accent: #5AB532;
 	--blue: #344e7f;
 	--blue-accent: #3d9598;
+	--teal: #39728C;
 
 	/* role colors */
 	--bg-color: var(--white);
