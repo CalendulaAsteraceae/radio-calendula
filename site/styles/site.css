@@ -499,9 +499,14 @@ nav.main-menu ul a:hover{
 	max-width: fit-content;
 }
 
+.author-info{
+	text-align: center;
+	font-size: 1.2rem;
+	
+}
 .posting-info{
 	text-align: center;
-	color: var(--emphasis-color-3);
+	font-style: italic;
 }
 
 .captioned-audio{
