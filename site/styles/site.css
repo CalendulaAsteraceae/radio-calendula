@@ -356,7 +356,6 @@ header.top-navigation{
 	background: var(--nav-color-5);
 	border-radius: 1rem;
 	color: var(--nav-color-1);
-	font-family: var(--serif);
 	font-size: 260%;
 	margin: auto;
 	max-width: fit-content;
@@ -385,7 +384,6 @@ nav.main-menu ul{
 	justify-content: space-around;
 	margin: 1rem auto auto auto;
 	text-align: center;
-	font-family: var(--serif);
 	font-weight: normal;
 }
 
@@ -429,7 +427,6 @@ nav.main-menu ul a:hover{
 }
 
 .translation-link{
-	font-family: var(--serif);
 	font-size: 1.2rem;
 	font-style: italic;
 	margin-top: 1em;
