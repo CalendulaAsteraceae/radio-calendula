@@ -334,11 +334,13 @@ figure{
 	text-align: center;
 }
 figure img{
-	max-height: 8em;
 	max-width: 100%;
 }
 .bordered-figure img{
 	border: 4px solid var(--emphasis-color-3);
+}
+.small-figure img{
+	max-height: 8em;
 }
 
 /* navigation */
