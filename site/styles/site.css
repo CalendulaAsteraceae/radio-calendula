@@ -353,13 +353,21 @@ table{
 	border-collapse: collapse;
 	border: none;
 }
+table caption{
+	text-align: center;
+}
 tr:nth-child(2n){
 	background-color: var(--transparent-text-color);
 }
 th{
 	vertical-align: top;
 }
-th{
+thead > tr > th{
+	text-align: center;
+	border-right: none;
+	border-bottom: 1px solid var(--emphasis-color-1);
+}
+tbody > tr > th{
 	text-align: left;
 	font-weight: bold;
 	border-right: 1px solid var(--emphasis-color-2);
@@ -368,14 +376,13 @@ td{
 	text-align: left;
 	vertical-align: top;
 }
+.number-table tbody > tr > th{
+	text-align: right;
+	font-weight: normal;
+}
 .number-table td{
 	text-align: right;
 	vertical-align: bottom;
-}
-.square-table tr:first-child > th{
-	text-align: center;
-	border-right: none;
-	border-bottom: 1px solid var(--emphasis-color-1);
 }
 
 /* navigation */
