@@ -116,6 +116,8 @@
 	--green-accent: #5AB532;
 	--blue: #344e7f;
 	--blue-accent: #3d9598;
+	--transparent-white: #f9f0e980;
+	--transparent-black: #1a1a1a80;
 
 	/* role colors */
 	--bg-color: var(--white);
@@ -129,6 +131,8 @@
 	--nav-color-3: var(--red);
 	--nav-color-4: var(--yellow);
 	--nav-color-5: var(--white);
+	--transparent-bg-color: var(--transparent-white);
+	--transparent-text-color: var(--transparent-black);
 
 	/* base styles */
 	background-color: var(--bg-color);
@@ -144,6 +148,8 @@
 		--emphasis-color-1: var(--green-accent);
 		--emphasis-color-2: var(--blue-accent);
 		--emphasis-color-3: var(--red-accent);
+		--transparent-bg-color: var(--transparent-black);
+		--transparent-text-color: var(--transparent-white);
 	}
 }
 
@@ -340,6 +346,36 @@ figure img{
 }
 .small-figure img{
 	max-height: 8em;
+}
+
+table{
+	margin: 2rem auto;
+	border-collapse: collapse;
+	border: none;
+}
+tr:nth-child(2n){
+	background-color: var(--transparent-text-color);
+}
+th{
+	vertical-align: top;
+}
+tr:first-child > th{
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1px solid var(--emphasis-color-1);
+}
+tr:not(:first-child) > th{
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 1px solid var(--emphasis-color-2);
+}
+td{
+	text-align: left;
+	vertical-align: top;
+}
+.number-table td{
+	text-align: right;
+	vertical-align: bottom;
 }
 
 /* navigation */
