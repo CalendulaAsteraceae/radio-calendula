@@ -347,6 +347,10 @@ figure img{
 .small-figure img{
 	max-height: 8em;
 }
+iframe.google-sheets-chart{
+	margin: 2rem auto;
+	display: table;
+}
 
 table{
 	margin: 2rem auto;
@@ -369,7 +373,7 @@ th{
 thead > tr > th{
 	text-align: center;
 	border-right: none;
-	border-bottom: 1px solid var(--emphasis-color-2);
+	border-bottom: 1px solid var(--emphasis-color-1);
 }
 tbody > tr > th{
 	text-align: left;
@@ -381,13 +385,43 @@ td{
 	vertical-align: top;
 	padding: 0.25em 0.5em;
 }
+
 .number-header-table tbody > tr > th{
 	text-align: right;
-	font-weight: normal;
 }
+
 .number-table td{
 	text-align: right;
 	vertical-align: bottom;
+}
+
+.total-row-table tbody > tr:last-child{
+	border-top: 1px solid var(--emphasis-color-1);
+}
+.total-column-table td:last-child{
+	border-left: 1px solid var(--emphasis-color-1);
+}
+
+.two-level-table tbody > th{
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	border-right: none;
+}
+.two-level-table tbody > tr > th:first-child{
+	text-align: left;
+	border-right: 1px solid var(--emphasis-color-1);
+}
+.number-header-table.two-level-table tbody > tr > th:first-child{
+	text-align: right;
+}
+.two-level-table tbody > tr:first-child > th{
+	font-weight: bold;
+}
+.two-level-table tbody > tr:nth-child(2) > th:first-child{
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
 }
 
 /* navigation */
