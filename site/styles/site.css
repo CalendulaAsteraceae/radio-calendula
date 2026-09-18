@@ -381,11 +381,11 @@ td{
 	vertical-align: top;
 	padding: 0.25em 0.5em;
 }
-.number-table tbody > tr > th{
+.number-header-table tbody > tr > th{
 	text-align: right;
 	font-weight: normal;
 }
-.number-header-table td{
+.number-table td{
 	text-align: right;
 	vertical-align: bottom;
 }
