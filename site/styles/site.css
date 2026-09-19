@@ -365,7 +365,7 @@ table{
 table caption{
 	text-align: center;
 	font-style: italic;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 /*tr:nth-child(2n){
 	background-color: var(--transparent-text-color);
@@ -427,9 +427,6 @@ td{
 	font-weight: bold;
 	font-style: normal;
 	border-bottom: none;
-}
-.two-level-table tbody > tr:first-child > th:first-child{
-	border-right: none;
 }
 .two-level-table tbody > tr:nth-child(2) > th:first-child{
 	text-align: center;
