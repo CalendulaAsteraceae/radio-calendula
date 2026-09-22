@@ -142,6 +142,7 @@
 	font-family: var(--serif);
 	font-size: 14pt;
 	padding: 0;
+	overflow-wrap: break-word;
 }
 @media(prefers-color-scheme: dark){
 	:root{
