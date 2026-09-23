@@ -53,7 +53,7 @@
             <ul>
                 <li>The field: a divided field is an SC and changing the tincture or removing the field is a DC, so code the first line as <code>AZ</code>. Also add a +0 line at the end with <code>FIELD:solid|NO</code>.</li>
                 <li>The type: anything other than <code>ROUNDEL</code> or <code>ROUNDEL-DEMI</code> would be an SC for type, so we only need to check <code>ROUNDEL</code> and <code>ROUNDEL-DEMI</code>.</li>
-                <li>The number: anything other than 2 primary charges would be an SC for number, and anything other than 2 roundels would be a DC. Code the number as <code>ROUNDEL:2:primary|ROUNDEL-DEMI:2:primary</code>.</li>
+                <li>The number: anything other than 2 primary charges would be an SC for number, and anything other than 2 roundels would be a DC for type. Code the number as <code>ROUNDEL:2:primary|ROUNDEL-DEMI:2:primary</code>.</li>
                 <li>The edge style: I rarely bother coding this for roundels because they’re nearly all plain-line, but it’s not incorrect to code as <code>pl</code> or <code>plain line</code>.</li>
                 <li>The arrangement: similarly, I only bother coding for arrangement if there are too many results, but the arrangement can be coded as <code>INPALE</code>.</li>
                 <li>Whether there are other charges on the field: this can be coded as <code>gpa</code>, and in particular <code>g2pa</code>, because the presence of secondary or overall charges is a DC, and if the primary group didn’t have 2 charges, that would be an SC.</li>
