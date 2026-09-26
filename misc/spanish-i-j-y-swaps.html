@@ -3,37 +3,68 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dar Měryem: Spanish I-J-Y Swaps</title>
-        <link rel="icon" type="image/svg+xml" href="/images/meryem-device-icon.svg" sizes="16x16 32x32 64x64 128x128 512x512">
-        <link rel="apple-touch-icon" type="image/svg+xml" href="/images/meryem-device-icon.svg" sizes="16x16 32x32 64x64 128x128 512x512">
-        <link href="/styles/site.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/styles/sca.css" rel="stylesheet" type="text/css" media="all" />
+        <title>Spanish I-J-Y Swaps: Evidence Tables and Frequency Analysis</title>
+        <style type="text/css">
+            .letter-swap-data-table {
+                margin: 2rem auto;
+                border-collapse: collapse;
+                border-top: 2px solid currentcolor;
+                border-bottom: 2px solid currentcolor;
+            }
+            .letter-swap-data-table caption {
+                text-align: center;
+                font-style: italic;
+                font-size: 1.2rem;
+            }
+            .letter-swap-data-table th {
+                vertical-align: top;
+                padding: 0.25em 0.5em;
+            }
+            .letter-swap-data-table thead > tr > th {
+                text-align: center;
+                border-right: none;
+                border-bottom: 1px solid currentcolor;
+            }
+            .letter-swap-data-table tbody > tr > th {
+                font-weight: normal;
+                font-style: italic;
+                text-align: center;
+                border-right: none;
+                border-bottom: 1px solid currentcolor;
+            }
+            .letter-swap-data-table td {
+                text-align: right;
+	            vertical-align: bottom;
+                padding: 0.25em 0.5em;
+            }
+            .letter-swap-data-table tbody > tr > th:first-child {
+                text-align: left;
+                border-right: 1px solid currentcolor;
+                border-bottom: none;
+            }
+            .letter-swap-data-table tbody > tr > th:first-child {
+                text-align: right;
+            }
+            .letter-swap-data-table tbody > tr:first-child > th {
+                font-weight: bold;
+                font-style: normal;
+                border-bottom: none;
+            }
+            .letter-swap-data-table tbody > tr:nth-child(2) > th:first-child {
+                text-align: center;
+                font-weight: bold;
+                font-style: normal;
+                border-bottom: 1px solid currentcolor;
+            }
+            .letter-swap-data-table th:last-child,
+            .letter-swap-data-table td:last-child {
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
-        <header class="top-navigation">
-            <nav class="main-menu" aria-label="Main menu">
-                <div class="site-title">
-                Dar Měryem
-                </div>
-                <ul>
-                <li><ul class="flat-list language-list">
-                    <li lang="en"><a href="/index.html">Main Site Home</a></li>
-                </ul></li>
-                <li><ul class="flat-list language-list">
-                    <li lang="en"><a href="/meryem.html">SCA Home</a></li>
-                </ul></li>
-                <li><ul class="flat-list language-list">
-                    <li lang="en"><a href="/copyright.html">Copyright</a></li>
-                    <li lang="es"><a href="/derechos-del-autor.html">Derechos del autor</a></li>
-                </ul></li>
-                </ul>
-            </nav>
-        </header>
         <main>
-            <h1>
-                Spanish I-J-Y Swaps:<br/>
-                <span class="subtitle">Evidence Tables and Frequency Analysis</span>
-            </h1>
+            <h1>Spanish I-J-Y Swaps: Evidence Tables and Frequency Analysis</h1>
             <p class="author-info">
                 By Měryem al Ixbilǐa<br/>
                 <span class="email">meryemsca@gmail.com</span>
@@ -66,7 +97,7 @@
             <p>My data and code is available on <a href="https://github.com/CalendulaAsteraceae/spanish-ijy-swaps">GitHub</a>, and the charts were created by importing the data to <a href="https://docs.google.com/spreadsheets/d/16wATehbhujmSrNNl-eZsN-hroZb8yF7luI5lyP9yfr0/edit">Google Sheets</a>.</p>
             <h2>Statistics</h2>
             <h3>Vowel /i/</h3>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-Initial /i/</caption>
                 <tbody>
                     <tr>
@@ -178,7 +209,7 @@
             <figure>
                 <img alt="Percentage bar chart" src="/images/word-initial-vowel-i.svg"/>
             </figure>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-medial vowel /i/</caption>
                 <tbody>
                     <tr>
@@ -260,7 +291,7 @@
             <figure>
                 <img alt="Percentage bar chart" src="/images/word-medial-vowel-i.svg"/>
             </figure>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-final vowel /i/</caption>
                 <tbody>
                     <tr>
@@ -343,7 +374,7 @@
                 <img alt="Percentage bar chart" src="/images/word-final-vowel-i.svg"/>
             </figure>
             <h3>Semivowel /j/</h3>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-initial semivowel /j/ starting a diphthong</caption>
                 <tbody>
                     <tr>
@@ -425,7 +456,7 @@
             <figure>
                 <img alt="Percentage bar chart" src="/images/word-initial-semivowel-j-starting-a-diphthong.svg"/>
             </figure>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-medial semivowel /j/ starting a diphthong</caption>
                 <tbody>
                     <tr>
@@ -507,7 +538,7 @@
             <figure>
                 <img alt="Percentage bar chart" src="/images/word-medial-semivowel-j-starting-a-diphthong.svg"/>
             </figure>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-medial semivowel /j/ ending a diphthong</caption>
                 <tbody>
                     <tr>
@@ -589,7 +620,7 @@
             <figure>
                 <img alt="Percentage bar chart" src="/images/word-medial-semivowel-j-ending-a-diphthong.svg"/>
             </figure>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-final semivowel /j/ ending a diphthong</caption>
                 <tbody>
                     <tr>
@@ -672,7 +703,7 @@
                 <img alt="Percentage bar chart" src="/images/word-final-semivowel-j-ending-a-diphthong.svg"/>
             </figure>
             <h3>Consonant /d&#865;ʒ/ or /ʃ/</h3>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-initial consonant /d&#865;ʒ/ or /ʃ/</caption>
                 <tbody>
                     <tr>
@@ -764,7 +795,7 @@
             <figure>
                 <img alt="Percentage bar chart" src="/images/word-initial-consonant-dzh-or-sh.svg"/>
             </figure>
-            <table class="two-level-table total-column-table number-table">
+            <table class="letter-swap-data-table">
                 <caption>Word-medial consonant /d&#865;ʒ/ or /ʃ/</caption>
                 <tbody>
                     <tr>
