@@ -374,9 +374,6 @@ table caption{
 	font-style: italic;
 	font-size: 1.2rem;
 }
-/*tr:nth-child(2n){
-	background-color: var(--transparent-text-color);
-}*/
 th{
 	vertical-align: top;
 	padding: 0.25em 0.5em;
@@ -439,6 +436,7 @@ td{
 	text-align: center;
 	font-weight: bold;
 	font-style: normal;
+	border-bottom: 1px solid var(--emphasis-color-1);
 }
 
 /* navigation */
