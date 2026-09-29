@@ -4,18 +4,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Andalusi Arabic Names and Period Romanization</title>
         <style type="text/css">
-            .author-info{
-                text-align: center;
+            .author-info {
                 font-size: 1.2rem;
-                
             }
-            .author-info .email{
+            .author-info .email {
                 font-size: 1rem;
-                
             }
-            .posting-info{
+            .posting-info {
+                font-style: italic;
+            }
+            figure {
+                display: table;
+            }
+            figure img {
+                max-width: 100%;
+            }
+            figure figcaption {
+                text-align: center;
+            }
+            span[lang="ar"] {
+                direction: rtl;
+            }
+            .ayala-header {
                 text-align: center;
                 font-style: italic;
+            }
+            .comparison-table {
+                margin: 2rem;
+                border-collapse: collapse;
+                border-top: 2px solid currentcolor;
+                border-bottom: 2px solid currentcolor;
+            }
+            .comparison-table th {
+                vertical-align: top;
+                padding: 0.25em 0.5em;
+                text-align: center;
+                font-weight: bold;
+                border-bottom: 1px solid currentcolor;
+            }
+            .comparison-table td {
+	            vertical-align: top;
+                text-align: left;
+                padding: 0.25em 0.5em;
+            }
+            .comparison-table .text-header td {
+                font-style: italic;
+                text-align: center;
+            }
+            .comparison-table.romanization-table td {
+                text-align: center;
+            }
+            .comparison-table.multi-header tr:first-child th {
+                font-style: italic;
+                font-weight: normal;
+                border-bottom: none;
+            }
+            .comparison-table.multi-header tr:nth-child(2) {
+                border-bottom: 1px solid currentcolor;
+            }
+            .comparison-table.multi-header tr:nth-child(2) th {
+                font-style: normal;
+                font-weight: bold;
             }
         </style>
     </head>
