@@ -25,6 +25,29 @@
                 text-align: center;
                 font-style: italic;
             }
+            .romanization-table {
+                margin: 2rem;
+                border-collapse: collapse;
+                border-top: 2px solid currentcolor;
+                border-bottom: 2px solid currentcolor;
+            }
+            .romanization-table th {
+                vertical-align: top;
+                padding: 0.25em 0.5em;
+                text-align: center;
+                border-bottom: 1px solid currentcolor;
+            }
+            .romanization-table tr:first-child th {
+                font-weight: bold;
+            }
+            .romanization-table tr:nth-child(2) th {
+                font-style: italic;
+            }
+            .romanization-table td {
+                text-align: center;
+	            vertical-align: top;
+                padding: 0.25em 0.5em;
+            }
         </style>
     </head>
     <body>
@@ -58,8 +81,279 @@
             <img alt="Chart showing the Arabic letters with their names written in Latin characters" src="alacala-alphabet-chart.jpg"/>
             <figcaption>Alphabet chart in the second edition of the <i>Arte</i>.</figcaption>
         </figure>
-        <table>
-
+        <table class="romanization-table">
+            <thead>
+                <tr>
+                    <th rowspan="2">Sun or Moon Letter</th>
+                    <th rowspan="2">Letter</th>
+                    <th colspan="2">Romanization</th>
+                    <th colspan="2">Letter Name</th>
+                </tr>
+                <tr>
+                    <th>Alcalá</th>
+                    <th>EI3</th>
+                    <th>Alcalá</th>
+                    <th>EI3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td lang="ar">ا</td>
+                    <td>⟨a⟩, ⟨e⟩, ⟨i⟩, omit</td>
+                    <td>⟨ā⟩ or omit</td>
+                    <td>Alif</td>
+                    <td>Alif</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ب</td>
+                    <td>⟨b⟩</td>
+                    <td>⟨b⟩</td>
+                    <td>Be</td>
+                    <td>Bāʾ</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ت</td>
+                    <td>⟨t⟩</td>
+                    <td>⟨t⟩</td>
+                    <td>Te</td>
+                    <td>Tāʾ</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>ة</td>
+                    <td>⟨-a⟩ or ⟨-e⟩, ⟨-at⟩ or ⟨-et⟩ in iḍāfa</td>
+                    <td>⟨-a⟩; ⟨-at⟩ in iḍāfa</td>
+                    <td>Te marbǒta</td>
+                    <td>Tāʾ marbūṭa</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ث</td>
+                    <td>⟨ċ⟩</td>
+                    <td>⟨th⟩</td>
+                    <td>Ċe</td>
+                    <td>Thāʾ</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ج</td>
+                    <td>⟨j⟩, ⟨g + e, i⟩</td>
+                    <td>⟨j⟩</td>
+                    <td>Gǐm</td>
+                    <td>Jīm</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ح</td>
+                    <td>⟨h⟩</td>
+                    <td>⟨ḥ⟩</td>
+                    <td>Ha</td>
+                    <td>Ḥāʾ</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>خ</td>
+                    <td>⟨k̇⟩</td>
+                    <td>⟨kh⟩</td>
+                    <td>K̇a</td>
+                    <td>Khāʾ</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>د</td>
+                    <td>⟨d⟩</td>
+                    <td>⟨d⟩</td>
+                    <td>Dil</td>
+                    <td>Dāl</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ذ</td>
+                    <td>⟨ḋ⟩</td>
+                    <td>⟨dh⟩</td>
+                    <td>Ḋil</td>
+                    <td>Dhāl</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ر</td>
+                    <td>⟨r⟩</td>
+                    <td>⟨r⟩</td>
+                    <td>Ra</td>
+                    <td>Rāʾ</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ز</td>
+                    <td>⟨z⟩, ⟨ç⟩, ⟨c + e, i⟩</td>
+                    <td>⟨z⟩</td>
+                    <td>Zěy</td>
+                    <td>Zāy</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>س</td>
+                    <td>⟨ç⟩, ⟨c + e, i⟩, ⟨z⟩</td>
+                    <td>⟨s⟩</td>
+                    <td>Cin</td>
+                    <td>Sīn</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ش</td>
+                    <td>⟨x⟩</td>
+                    <td>⟨sh⟩</td>
+                    <td>Xin</td>
+                    <td>Shīn</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ص</td>
+                    <td>⟨ç⟩, ⟨c + e, i⟩, ⟨z⟩</td>
+                    <td>⟨ṣ⟩</td>
+                    <td>Çad</td>
+                    <td>Ṣād</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ض</td>
+                    <td>⟨d⟩, ⟨ḋ⟩</td>
+                    <td>⟨ḍ⟩</td>
+                    <td>Dad</td>
+                    <td>Ḍād</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ط</td>
+                    <td>⟨t⟩</td>
+                    <td>⟨ṭ⟩</td>
+                    <td>Ta</td>
+                    <td>Ṭāʾ</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ظ</td>
+                    <td>⟨d⟩, ⟨ḋ⟩</td>
+                    <td>⟨ẓ⟩</td>
+                    <td>Da</td>
+                    <td>Ẓāʾ</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ع</td>
+                    <td>عـ over a vowel: ⟨a͑, e͑, ı͑, o͑, u͑⟩</td>
+                    <td>⟨⟩</td>
+                    <td>Ay</td>
+                    <td>Ayn</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>غ</td>
+                    <td>⟨g⟩, ⟨gu + e, i⟩</td>
+                    <td>⟨gh⟩</td>
+                    <td>Gǎy</td>
+                    <td>Ghayn</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ڢ</td>
+                    <td>⟨f⟩</td>
+                    <td>⟨f⟩</td>
+                    <td>Fe</td>
+                    <td>Fāʾ</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ق</td>
+                    <td>⟨c⟩, ⟨qu + e, i⟩, ⟨-q⟩, ⟨-c⟩</td>
+                    <td>⟨q⟩</td>
+                    <td>Caf</td>
+                    <td>Qāf</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ك</td>
+                    <td>⟨c⟩, ⟨qu + e, i⟩, ⟨-q⟩, ⟨-c⟩</td>
+                    <td>⟨k⟩</td>
+                    <td>Quǐf</td>
+                    <td>Kāf</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>ل</td>
+                    <td>⟨l⟩</td>
+                    <td>⟨l⟩</td>
+                    <td>Lim</td>
+                    <td>Lām</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ﻻ</td>
+                    <td>⟨la⟩, ⟨le⟩, ⟨li⟩</td>
+                    <td>⟨lā⟩</td>
+                    <td>Lemǎlif</td>
+                    <td>Lāmalif</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>م</td>
+                    <td>⟨m⟩</td>
+                    <td>⟨m⟩</td>
+                    <td>Mim</td>
+                    <td>Mīm</td>
+                </tr>
+                <tr>
+                    <td>☼</td>
+                    <td>ن</td>
+                    <td>⟨n⟩</td>
+                    <td>⟨n⟩</td>
+                    <td>Nun</td>
+                    <td>Nūn</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ﻩ</td>
+                    <td>⟨h⟩</td>
+                    <td>⟨h⟩</td>
+                    <td>He</td>
+                    <td>Hāʾ</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>و</td>
+                    <td>⟨o⟩, ⟨u⟩, ⟨gu-⟩</td>
+                    <td>⟨w⟩, ⟨ū⟩, ⟨-uww-⟩, ⟨-ū⟩</td>
+                    <td>Guěu</td>
+                    <td>Wāw</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ي</td>
+                    <td>⟨y⟩, ⟨i⟩, ⟨ǐ⟩, ⟨ñ-⟩ for ⟨ni-⟩</td>
+                    <td>⟨y⟩, ⟨ī⟩, ⟨-iyy-⟩, ⟨ī⟩</td>
+                    <td>Ye</td>
+                    <td>Yāʾ</td>
+                </tr>
+                <tr>
+                    <td>☾</td>
+                    <td>ء</td>
+                    <td>omit</td>
+                    <td>⟨⟩ (omit at start of word)</td>
+                    <td>Hěmza</td>
+                    <td>Hamza</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>stress: ⟨ǎ⟩, ⟨ě⟩, ⟨ǐ⟩, ⟨ǒ⟩, ⟨ǔ⟩</td>
+                    <td>long vowels: ⟨ā⟩, ⟨ē⟩, ⟨ī⟩, ⟨ō⟩, ⟨ū⟩</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
         </table>
         <p>Alcalá’s system is based on Early Modern Spanish with <i>seseo</i>. He indicates stress with a caron on the stressed vowel (although he does not indicate stress in the Spanish text), and closely transcribes <i>imāla</i>, sun letters and <i>iḍāfa</i>. Unfortunately, he does not differentiate between emphasized and unemphasized consonants—for example, both ⟨<span lang="ar">&#1578;</span>⟩ /t/ and ⟨<span lang="ar">&#1591;</span>⟩ /tˤ/ are transcribed as ⟨t⟩—or between /s/ and /z/. Neither does he transcribe geminated (doubled) consonants—for instance, <i>Iskandariyya = Alexandria</i> is transcribed as <i>Yzcandarǐa</i>.</p>
         <p>Notes about particular Alcalcá’s transcription of particular sounds:</p>
