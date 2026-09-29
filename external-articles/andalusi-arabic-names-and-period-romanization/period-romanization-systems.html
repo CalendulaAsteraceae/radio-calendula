@@ -31,17 +31,20 @@
                 border-top: 2px solid currentcolor;
                 border-bottom: 2px solid currentcolor;
             }
-            .romanization-table th {
+            .romanization-table thead th {
                 vertical-align: top;
                 padding: 0.25em 0.5em;
                 text-align: center;
+            }
+            .romanization-table thead tr:first-child th {
+                font-style: italic;
+                font-weight: normal;
+            }
+            .romanization-table thead tr:nth-child(2) {
                 border-bottom: 1px solid currentcolor;
             }
-            .romanization-table tr:first-child th {
+            .romanization-table thead tr:nth-child(2) th {
                 font-weight: bold;
-            }
-            .romanization-table tr:nth-child(2) th {
-                font-style: italic;
             }
             .romanization-table td {
                 text-align: center;
@@ -78,18 +81,20 @@
         <h3 id="pedro-de-alcala">Pedro de Alcalá</h3>
         <p>Pedro de Alcalá was a Hieronymite scholar who, in the early 16th century, wrote <i>Arte para ligera mente saber la lengua araviga</i> (<i>Art to slightly learn the Arabic language</i>). This volume is a Spanish-language grammar of Arabic which also contained Arabic translations of Catholic prayers, in which the Arabic was transcribed using the romanization system he invented. In 1505 Granada, he published the second edition of the <i>Arte</i> along with the first edition of his <i>Vocabulista aravigo en lengua castellana</i> (<i>Arabic lexicon in Castilian language</i>). The purpose of Alcalá’s work was for the clergy to learn Arabic and convert the Muslim population of recently-conquered Granada.</p>
         <figure>
-            <img alt="Chart showing the Arabic letters with their names written in Latin characters" src="alacala-alphabet-chart.jpg"/>
+            <img alt="Chart showing the Arabic letters with their names written in Latin characters" src="andalusi-arabic-names-and-period-romanization/alacala-alphabet-chart.jpg"/>
             <figcaption>Alphabet chart in the second edition of the <i>Arte</i>.</figcaption>
         </figure>
         <table class="romanization-table">
             <thead>
                 <tr>
-                    <th rowspan="2">Sun or Moon Letter</th>
-                    <th rowspan="2">Letter</th>
+                    <th></th>
+                    <th></th>
                     <th colspan="2">Romanization</th>
                     <th colspan="2">Letter Name</th>
                 </tr>
                 <tr>
+                    <th>Sun or Moon Letter</th>
+                    <th>Letter</th>
                     <th>Alcalá</th>
                     <th>EI3</th>
                     <th>Alcalá</th>
@@ -341,7 +346,7 @@
                     <td>☾</td>
                     <td>ء</td>
                     <td>omit</td>
-                    <td>⟨⟩ (omit at start of word)</td>
+                    <td>⟨ʾ⟩ (omit at start of word)</td>
                     <td>Hěmza</td>
                     <td>Hamza</td>
                 </tr>
