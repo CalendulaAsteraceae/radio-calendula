@@ -1,0 +1,232 @@
+{
+  "version": "32.5.4",
+  "pages": [
+    {
+      "id": "VdadlcjNfr5zk78vE5bb",
+      "name": "Page-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "ECojSw_y8JucfI2twrUe-1",
+          "target": "M0lXrZbvWAMio88ORXM8-2"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-7",
+          "type": "edge",
+          "parent": "1",
+          "source": "ECojSw_y8JucfI2twrUe-1",
+          "target": "M0lXrZbvWAMio88ORXM8-4"
+        },
+        {
+          "id": "ECojSw_y8JucfI2twrUe-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Submitter develops a name/designs armory",
+          "html": "<font data-font-src=\"https://fonts.googleapis.com/css?family=Spectral\" face=\"Spectral\">Submitter develops a name/designs armory</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-2",
+          "type": "node",
+          "parent": "1",
+          "label": "A consulting herald assists in making the submission as likely to pass as possible and/or in filling out the paperwork",
+          "html": "<div><font face=\"Spectral\">A consulting herald assists in making the submission as likely to pass as possible and/or in filling out the paperwork</font></div>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-10",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-4",
+          "target": "M0lXrZbvWAMio88ORXM8-9"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-4",
+          "type": "node",
+          "parent": "1",
+          "label": "The submission is sent, with fees, to the appropriate staff herald (Submission/Internal Submission)",
+          "html": "<font face=\"Spectral\">The submission is sent, with fees, to the appropriate staff herald (Submission/Internal Submission)</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-8",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-2",
+          "target": "M0lXrZbvWAMio88ORXM8-4"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-12",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-9",
+          "target": "M0lXrZbvWAMio88ORXM8-11"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-9",
+          "type": "node",
+          "parent": "1",
+          "label": "The appropriate staff herald compiles all submissions for a month onto an Internal Letter of Intent",
+          "html": "<font face=\"Spectral\">The appropriate staff herald compiles all submissions for a month onto an Internal Letter of Intent</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-14",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-11",
+          "target": "M0lXrZbvWAMio88ORXM8-13"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-11",
+          "type": "node",
+          "parent": "1",
+          "label": "Commenting heralds spend approximately a month commenting on a given Internal Letter of Intent",
+          "html": "<font face=\"Spectral\">Commenting heralds spend approximately a month commenting on a given Internal Letter of Intent</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-16",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-13",
+          "target": "M0lXrZbvWAMio88ORXM8-15"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-22",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-13",
+          "target": "M0lXrZbvWAMio88ORXM8-21"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-13",
+          "type": "node",
+          "parent": "1",
+          "label": "A meeting is held by the appropriate staff herald (Submission/External Submission) to determine whether each item, with commentary in mind, should be Returned or Forwarded",
+          "html": "<font face=\"Spectral\">A meeting is held by the appropriate staff herald (Submission/External Submission) to determine whether each item, with commentary in mind, should be Returned or Forwarded</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-20",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-15",
+          "target": "M0lXrZbvWAMio88ORXM8-17"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-15",
+          "type": "node",
+          "parent": "1",
+          "label": "Item is Returned",
+          "html": "<font face=\"Spectral\">Item is Returned</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-19",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-17",
+          "target": "M0lXrZbvWAMio88ORXM8-9"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-17",
+          "type": "node",
+          "parent": "1",
+          "label": "Submitter redesigns, ideally with consultation, and resubmits",
+          "html": "<font face=\"Spectral\">Submitter redesigns, ideally with consultation, and resubmits</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-24",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-21",
+          "target": "M0lXrZbvWAMio88ORXM8-23"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-21",
+          "type": "node",
+          "parent": "1",
+          "label": "Item is Forwarded",
+          "html": "<font face=\"Spectral\">Item is Forwarded</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-26",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-23",
+          "target": "M0lXrZbvWAMio88ORXM8-25"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-23",
+          "type": "node",
+          "parent": "1",
+          "label": "The appropriate staff herald (Submission/External Submission) compiles a Letter of Intent for commentary at the Society-wide “Laurel” level",
+          "html": "<font face=\"Spectral\">The appropriate staff herald (Submission/External Submission) compiles a Letter of Intent for commentary at the Society-wide “Laurel” level</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-28",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-25",
+          "target": "M0lXrZbvWAMio88ORXM8-27"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-25",
+          "type": "node",
+          "parent": "1",
+          "label": "Commenting heralds spend approximately 2 months commenting on Letters of Intent",
+          "html": "<font face=\"Spectral\">Commenting heralds spend approximately 2 months commenting on Letters of Intent</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-30",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-27",
+          "target": "M0lXrZbvWAMio88ORXM8-29"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-27",
+          "type": "node",
+          "parent": "1",
+          "label": "A meeting is held by Laurel & Staff to determine whether to accept or return each item",
+          "html": "<font face=\"Spectral\">A meeting is held by Laurel &amp; Staff to determine whether to accept or return each item</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-32",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-29",
+          "target": "M0lXrZbvWAMio88ORXM8-15"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-36",
+          "type": "edge",
+          "parent": "1",
+          "source": "M0lXrZbvWAMio88ORXM8-29",
+          "target": "M0lXrZbvWAMio88ORXM8-33"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-29",
+          "type": "node",
+          "parent": "1",
+          "label": "Decisions are placed on a Letter of Acceptances and Returns, which is proofread for 1–2 months",
+          "html": "<font face=\"Spectral\" data-font-src=\"https://fonts.googleapis.com/css?family=Spectral\">Decisions&nbsp;are placed on a Letter of Acceptances and Returns, which is proofread for 1–2 months</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-33",
+          "type": "node",
+          "parent": "1",
+          "label": "Item is Accepted and officially Registered!",
+          "html": "<font face=\"Spectral\">Item is Accepted and officially Registered!</font>"
+        },
+        {
+          "id": "M0lXrZbvWAMio88ORXM8-35",
+          "type": "node",
+          "parent": "1",
+          "label": "This is a brief overview, eliding over the systems and people that make each step happen. The College is a vast, sophisticated system full of hardworking and dedicated volunteers, many of them sight unseen.",
+          "html": "<div><font face=\"Spectral\">This is a brief overview, eliding over the systems and people that make each step happen. The College is a vast, sophisticated system full of hardworking and dedicated volunteers, many of them sight unseen.</font></div>"
+        }
+      ]
+    }
+  ]
+}

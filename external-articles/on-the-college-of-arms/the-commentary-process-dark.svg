@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="542px" height="922px" version="1.1" viewBox="0 0 542 922" xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <style type="text/css">
+        @supports (color: light-dark(#000, #fff)) {
+            #ge-svg-Att83wm60ElZvGscYmNM {
+                --ge-adaptive-bg: light-dark(#ffffff, var(--ge-dark-color, #121212));
+            }
+        }
+        @import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;500");
+        :root {
+            --bg-color: black;
+            --text-color: white;
+            --red: #ff4800;
+            --green: #5AB532;
+            font-family: 'Spectral', serif;
+            font-size:12px;
+            line-height:1.2;
+            font-variant-caps:normal;
+            font-variant-east-asian:normal;
+            font-variant-ligatures:normal;
+            font-variant-numeric:normal;
+            white-space:normal;
+            word-wrap:normal;
+        }
+        .arrow {
+            fill: var(--text-color);
+            stroke: var(--text-color);
+        }
+        .red-arrow {
+            fill: var(--red);
+            stroke: var(--red);
+        }
+        .green-arrow {
+            fill: var(--green);
+            stroke: var(--green);
+        }
+        .text-rect {
+            fill: var(--bg-color);
+            stroke: var(--text-color);
+            pointer-events: all;
+        }
+        text {
+            fill: var(--text-color);
+            text-anchor: middle;
+        }
+        foreignObject {
+            overflow: visible;
+            text-align: center;
+            pointer-events: none;
+        }
+        .box-div-1 {
+            align-items: unsafe center;
+            display: flex;
+            height: 1px;
+            justify-content: unsafe center;
+        }
+        .box-div-2 {
+            box-sizing: border-box;
+            color: var(--text-color);
+            background: var(--bg-color);
+            text-align: center;
+        }
+        .box-div-3 {
+            display:inline-block;
+            pointer-events:all;
+        }
+    </style>
+    <rect width="542" height="922" style="fill: var(--bg-color);" />
+ <g transform="translate(20, 20)">
+  <g>
+   <g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m60 60v20-10 13.63" pointer-events="stroke"/>
+      <path d="m60 88.88-3.5-7 3.5 1.75 3.5-1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m120 30 53.82 13.46" fill="none" pointer-events="stroke" stroke-dasharray="8 8"/>
+      <path d="m178.92 44.73-7.64 1.7 2.54-2.97-0.85-3.82z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect width="120" height="60" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:1px; padding-top:30px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Submitter develops a name/designs armory</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="60" y="27"><tspan x="60" y="27">Submitter develops a</tspan><tspan x="60" y="41">name/designs armory</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect y="90" width="120" height="110" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:1px; padding-top:145px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:div>
+             <xhtml:span>A consulting herald assists in making the submission as likely to pass as possible and/or in filling out the paperwork</xhtml:span>
+            </xhtml:div>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="60" y="114"><tspan x="60" y="114">A consulting herald</tspan><tspan x="60" y="128">assists in making the</tspan><tspan x="60" y="142">submission as likely</tspan><tspan x="60" y="156">to pass as possible</tspan><tspan x="60" y="170">and/or in filling out the</tspan><tspan x="60" y="184">paperwork</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m300 45h73.63" pointer-events="stroke"/>
+      <path d="m378.88 45-7 3.5 1.75-3.5-1.75-3.5z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="180" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:181px; padding-top:45px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>The submission is sent, with fees, to the appropriate staff herald (Submission/Internal Submission)</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="240" y="14"><tspan x="240" y="14">The submission is</tspan><tspan x="240" y="28">sent, with fees, to the</tspan><tspan x="240" y="42">appropriate staff</tspan><tspan x="240" y="56">herald</tspan><tspan x="240" y="70">(Submission/Internal</tspan><tspan x="240" y="84">Submission)</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m120 145 123.13-51.55" pointer-events="stroke"/>
+      <path d="m247.97 91.42-5.11 5.93 0.27-3.9-2.97-2.55z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m440 90v43.63" pointer-events="stroke"/>
+      <path d="m440 138.88-3.5-7 3.5 1.75 3.5-1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="380" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:381px; padding-top:45px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>The appropriate staff herald compiles all submissions for a month onto an Internal Letter of Intent</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="440" y="14"><tspan x="440" y="14">The appropriate staff</tspan><tspan x="440" y="28">herald compiles all</tspan><tspan x="440" y="42">submissions for a</tspan><tspan x="440" y="56">month onto an</tspan><tspan x="440" y="70">Internal Letter of</tspan><tspan x="440" y="84">Intent</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m440 230v43.63" pointer-events="stroke"/>
+      <path d="m440 278.88-3.5-7 3.5 1.75 3.5-1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="380" y="140" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:381px; padding-top:185px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Commenting heralds spend approximately a month commenting on a given Internal Letter of Intent</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="440" y="161"><tspan x="440" y="161">Commenting heralds</tspan><tspan x="440" y="175">spend approximately</tspan><tspan x="440" y="189">a month commenting</tspan><tspan x="440" y="203">on a given Internal</tspan><tspan x="440" y="217">Letter of Intent</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="red-arrow" stroke-miterlimit="10">
+      <path d="m380 355h-73.63" pointer-events="stroke"/>
+      <path d="m301.12 355 7-3.5-1.75 3.5 1.75 3.5z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="green-arrow" stroke-miterlimit="10">
+      <path d="m440 430v43.63" pointer-events="stroke"/>
+      <path d="m440 478.88-3.5-7 3.5 1.75 3.5-1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="380" y="280" width="120" height="150" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:381px; padding-top:355px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>A meeting is held by the appropriate staff herald (Submission/External Submission) to determine whether each item, with commentary in mind, should be Returned or Forwarded</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="440" y="296"><tspan x="440" y="296">A meeting is held by</tspan><tspan x="440" y="310">the appropriate staff</tspan><tspan x="440" y="324">herald</tspan><tspan x="440" y="338">(Submission/External</tspan><tspan x="440" y="352">Submission) to</tspan><tspan x="440" y="366">determine whether</tspan><tspan x="440" y="380">each item, with</tspan><tspan x="440" y="394">commentary in mind,</tspan><tspan x="440" y="408">should be Returned</tspan><tspan x="440" y="422">or Forwarded</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m240 325v-48.63" pointer-events="stroke"/>
+      <path d="m240 271.12 3.5 7-3.5-1.75-3.5 1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="180" y="325" width="120" height="60" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:181px; padding-top:355px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Item is Returned</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="240" y="359">Item is Returned</text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m300 180 75.77-85.24" pointer-events="stroke"/>
+      <path d="m379.26 90.84-2.04 7.55-1.45-3.63-3.78-1.02z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="180" y="180" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:181px; padding-top:225px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Submitter redesigns, ideally with consultation, and resubmits</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="240" y="208"><tspan x="240" y="208">Submitter redesigns,</tspan><tspan x="240" y="222">ideally with</tspan><tspan x="240" y="236">consultation, and</tspan><tspan x="240" y="250">resubmits</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m440 540v43.63" pointer-events="stroke"/>
+      <path d="m440 588.88-3.5-7 3.5 1.75 3.5-1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="380" y="480" width="120" height="60" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:381px; padding-top:510px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Item is Forwarded</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="440" y="514">Item is Forwarded</text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m440 740v43.63" pointer-events="stroke"/>
+      <path d="m440 788.88-3.5-7 3.5 1.75 3.5-1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="380" y="590" width="120" height="150" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:381px; padding-top:665px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>The appropriate staff herald (Submission/External Submission) compiles a Letter of Intent for commentary at the Society-wide “Laurel” level</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="440" y="620"><tspan x="440" y="620">The appropriate staff</tspan><tspan x="440" y="634">herald</tspan><tspan x="440" y="648">(Submission/External</tspan><tspan x="440" y="662">Submission) compiles</tspan><tspan x="440" y="676">a Letter of Intent for</tspan><tspan x="440" y="690">commentary at the</tspan><tspan x="440" y="704">Society-wide “Laurel”</tspan><tspan x="440" y="718">level</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m380 835h-73.63" pointer-events="stroke"/>
+      <path d="m301.12 835 7-3.5-1.75 3.5 1.75 3.5z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="380" y="790" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:381px; padding-top:835px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Commenting heralds spend approximately 2 months commenting on Letters of Intent</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="440" y="818"><tspan x="440" y="818">Commenting heralds</tspan><tspan x="440" y="832">spend approximately</tspan><tspan x="440" y="846">2 months commenting</tspan><tspan x="440" y="860">on Letters of Intent</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="arrow" stroke-miterlimit="10">
+      <path d="m180 835h-53.63" pointer-events="stroke"/>
+      <path d="m121.12 835 7-3.5-1.75 3.5 1.75 3.5z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect x="180" y="790" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:181px; padding-top:835px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>A meeting is held by Laurel &amp; Staff to determine whether to accept or return each item</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="240" y="811"><tspan x="240" y="811">A meeting is held by</tspan><tspan x="240" y="825">Laurel &amp; Staff to</tspan><tspan x="240" y="839">determine whether to</tspan><tspan x="240" y="853">accept or return each</tspan><tspan x="240" y="867">item</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="red-arrow" stroke-miterlimit="10">
+      <path d="m90 790 88.62-398.78" pointer-events="stroke"/>
+      <path d="m179.76 386.09 1.9 7.59-3.04-2.46-3.8 0.95z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)" class="green-arrow" stroke-miterlimit="10">
+      <path d="m60 790v-213.63" pointer-events="stroke"/>
+      <path d="m60 571.12 3.5 7-3.5-1.75-3.5 1.75z" pointer-events="all"/>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect y="790" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:1px; padding-top:835px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Decisions are placed on a Letter of Acceptances and Returns, which is proofread for 1–2 months</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="60" y="804"><tspan x="60" y="804">Decisions are placed</tspan><tspan x="60" y="818">on a Letter of</tspan><tspan x="60" y="832">Acceptances and</tspan><tspan x="60" y="846">Returns, which is</tspan><tspan x="60" y="860">proofread for 1–2</tspan><tspan x="60" y="874">months</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect y="480" width="120" height="90" class="text-rect"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:1px; padding-top:525px; width: 118px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:span>Item is Accepted and officially Registered!</xhtml:span>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="60" y="522"><tspan x="60" y="522">Item is Accepted and</tspan><tspan x="60" y="536">officially Registered!</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+    <g>
+     <g transform="translate(.5 .5)">
+      <rect y="240" width="160" height="140" pointer-events="all" stroke-dasharray="8 8" style="fill: var(--bg-color); stroke:var(--text-color);"/>
+     </g>
+     <g>
+      <g>
+       <switch>
+        <foreignObject width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+         <xhtml:div class="box-div-1" style="margin-left:1px; padding-top:310px; width: 158px;">
+          <xhtml:div class="box-div-2">
+           <xhtml:div class="box-div-3">
+            <xhtml:div>
+             <xhtml:span>This is a brief overview, eliding over the systems and people that make each step happen. The College is a vast, sophisticated system full of hardworking and dedicated volunteers, many of them sight unseen.</xhtml:span>
+            </xhtml:div>
+           </xhtml:div>
+          </xhtml:div>
+         </xhtml:div>
+        </foreignObject>
+        <text x="80" y="265"><tspan x="80" y="265">This is a brief overview,</tspan><tspan x="80" y="279">eliding over the systems and</tspan><tspan x="80" y="293">people that make each step</tspan><tspan x="80" y="307">happen. The College is a</tspan><tspan x="80" y="321">vast, sophisticated system</tspan><tspan x="80" y="335">full of hardworking and</tspan><tspan x="80" y="349">dedicated volunteers, many</tspan><tspan x="80" y="363">of them sight unseen.</tspan></text>
+       </switch>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
