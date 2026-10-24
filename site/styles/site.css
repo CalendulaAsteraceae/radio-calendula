@@ -394,6 +394,10 @@ td{
 	padding: 0.25em 0.5em;
 }
 
+td.table-note {
+	padding-left: 2.5em;
+}
+
 .number-header-table tbody > tr > th{
 	text-align: right;
 }
