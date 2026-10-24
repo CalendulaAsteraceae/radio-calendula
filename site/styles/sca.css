@@ -1,4 +1,33 @@
+/* Junicode */
+
+@font-face{
+	font-family: "Junicode";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/Junicode/Junicode-Bold.woff2") format("woff2");
+}
+@font-face{
+	font-family: "Junicode";
+	font-style: italic;
+	font-weight: 700;
+	src: url("../fonts/Junicode/Junicode-BoldItalic.woff2") format("woff2");
+}
+@font-face{
+	font-family: "Junicode";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Junicode/Junicode-Regular.woff2") format("woff2");
+}
+@font-face{
+	font-family: "Junicode";
+	font-style: italic;
+	font-weight: 400;
+	src: url("../fonts/Junicode/Junicode-RegularItalic.woff2") format("woff2");
+}
+
 :root{
+	--serif: "Junicode", "Spectral", serif;
+
 	/* role colors */
 	--bg-color: var(--white);
 	--text-color: var(--black);
