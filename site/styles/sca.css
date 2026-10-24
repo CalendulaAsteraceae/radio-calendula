@@ -4,25 +4,25 @@
 	font-family: "Junicode";
 	font-style: normal;
 	font-weight: 700;
-	src: url("../fonts/Junicode/Junicode-Bold.woff2") format("woff2");
+	src: url("../fonts/Junicode/Junicode-Bold.woff") format("woff");
 }
 @font-face{
 	font-family: "Junicode";
 	font-style: italic;
 	font-weight: 700;
-	src: url("../fonts/Junicode/Junicode-BoldItalic.woff2") format("woff2");
+	src: url("../fonts/Junicode/Junicode-BoldItalic.woff") format("woff");
 }
 @font-face{
 	font-family: "Junicode";
 	font-style: normal;
 	font-weight: 400;
-	src: url("../fonts/Junicode/Junicode.woff2") format("woff2");
+	src: url("../fonts/Junicode/Junicode.woff") format("woff");
 }
 @font-face{
 	font-family: "Junicode";
 	font-style: italic;
 	font-weight: 400;
-	src: url("../fonts/Junicode/Junicode-Italic.woff2") format("woff2");
+	src: url("../fonts/Junicode/Junicode-Italic.woff") format("woff");
 }
 
 :root{
