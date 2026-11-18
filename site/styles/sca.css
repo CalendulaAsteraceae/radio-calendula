@@ -1,31 +1,39 @@
+/* Joscelyn */
+@font-face {
+	font-family: "Joscelyn.woff2";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Joscelyn.woff2") format("woff2");
+}
+
 /* Junicode */
 
-@font-face{
+@font-face {
 	font-family: "Junicode";
 	font-style: normal;
 	font-weight: 700;
 	src: url("../fonts/Junicode/Junicode-Bold.woff") format("woff");
 }
-@font-face{
+@font-face {
 	font-family: "Junicode";
 	font-style: italic;
 	font-weight: 700;
 	src: url("../fonts/Junicode/Junicode-BoldItalic.woff") format("woff");
 }
-@font-face{
+@font-face {
 	font-family: "Junicode";
 	font-style: normal;
 	font-weight: 400;
 	src: url("../fonts/Junicode/Junicode.woff") format("woff");
 }
-@font-face{
+@font-face {
 	font-family: "Junicode";
 	font-style: italic;
 	font-weight: 400;
 	src: url("../fonts/Junicode/Junicode-Italic.woff") format("woff");
 }
 
-:root{
+:root {
 	--serif: "Junicode", "Spectral", serif;
 
 	/* role colors */
@@ -43,8 +51,8 @@
 	--transparent-bg-color: var(--transparent-white);
 	--transparent-text-color: var(--transparent-black);
 }
-@media(prefers-color-scheme: dark){
-	:root{
+@media(prefers-color-scheme: dark) {
+	:root {
 		--bg-color: var(--black);
 		--text-color: var(--white);
 		--emphasis-color-1: var(--blue-accent);
@@ -53,4 +61,8 @@
 		--transparent-bg-color: var(--transparent-black);
 		--transparent-text-color: var(--transparent-white);
 	}
+}
+
+.secretary-hand {
+	font-family: "Joscelyn", var(--serif);
 }
